@@ -19,11 +19,11 @@ author: Bo Tian
 navbar-links:
   Posts: "blog"
   Tag Index: "tags"
-  # Resume: "assets/Baihu_Qian_resume.pdf"
-  # Photography:
+  Resume: "assets/Baihu_Qian_resume.pdf"
+  Photography:
   #   - Flowers: "photos/flowers"
-  #   - Hangzhou: "photos/hangzhou"
-  #   - China: ""
+     - Hangzhou: "photos/hangzhou"
+     - China: ""
   #  - USA: "photos/usa"
   Search: "search"
 
