@@ -292,3 +292,5 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag # Create SEO tags
   - jekyll-sitemap # Create the site map at /sitemap.xml
+
+theme: jekyll-theme-cayman
