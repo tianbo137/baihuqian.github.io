@@ -6,25 +6,25 @@
 # --- Required options --- #
 
 # Name of website
-title: Baihu Qian 钱柏湖
+title: Bo Tian / 田博
 
 # Short description of your site
-description: Personal website of Baihu Qian
+description: Personal website of Bo Tian
 
 # Your name to show in the footer
-author: Baihu Qian
+author: Bo Tian
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   Posts: "blog"
   Tag Index: "tags"
-  # Resume: "assets/Baihu_Qian_resume.pdf"
-  # Photography:
+   Resume: "assets/Baihu_Qian_resume.pdf"
+   Photography:
   #   - Flowers: "photos/flowers"
   #   - Hangzhou: "photos/hangzhou"
-  #   - China: ""
-  #   - USA: "photos/usa"
+     - China: ""
+    - USA: "photos/usa"
   Search: "search"
 
 # --- Logo --- #
@@ -45,10 +45,10 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "baihuqian@gmail.com"
+  email: "tianbo137@gmail.com"
   linkedin: baihuqian
-  instagram: baihuqian
-  github: baihuqian
+ # instagram: baihuqian
+  github: tianbo137
   rss: false
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -74,14 +74,14 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "baihuqian.github.io"
+url-pretty: "tianbo137.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
