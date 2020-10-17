@@ -20,9 +20,9 @@ navbar-links:
   Posts: "blog"
   Tags: "tags"
   # Resume: "assets/Baihu_Qian_resume.pdf"
-  Photos:
+  # Photos:
   #   - Flowers: "photos/flowers"
-     - Hangzhou: "photos/hangzhou"
+  #  - Hangzhou: "photos/hangzhou"
   #   - China: ""
   #  - USA: "photos/usa"
   Search: "search"
