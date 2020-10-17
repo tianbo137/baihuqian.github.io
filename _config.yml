@@ -19,8 +19,8 @@ author: Bo Tian
 navbar-links:
   Posts: "blog"
   Tag Index: "tags"
-  Resume: "assets/Baihu_Qian_resume.pdf"
-  Photography:
+  # Resume: "assets/Baihu_Qian_resume.pdf"
+  Photos:
   #   - Flowers: "photos/flowers"
      - Hangzhou: "photos/hangzhou"
   #   - China: ""
