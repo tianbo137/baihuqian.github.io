@@ -3,7 +3,7 @@ layout: "post"
 title: "Numpy Cheet Sheet"
 date: "2018-08-12 22:17"
 tags:
- - Finance
+ - DataScience
 ---
 
 NumPy is the library that gives Python its ability to work with data at speed. Originally, launched in 1995 as 'Numeric,' NumPy is the foundation on which
