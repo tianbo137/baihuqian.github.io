@@ -17,7 +17,7 @@ Output: 5->4->3->2->1->NULL
 Double pointer with one pointing at the end of the reverted part and another one pointing to the head the remaining part
 
 # Solution
-
+```python
 class Solution(object):
     def reverseList(self, head):
         """
@@ -34,4 +34,4 @@ class Solution(object):
             curr = next
     
         return prev
-      
+```
