@@ -3,7 +3,7 @@ layout: post
 title: Manipulate Financial Data in Python
 date: '2018-12-30 20:22'
 tags:
- - Finance
+ - DataScience
 ---
 
 This is the notes for mini course 1 of [Machine Learning for Trading](https://classroom.udacity.com/courses/ud501), offered by Udacity.
