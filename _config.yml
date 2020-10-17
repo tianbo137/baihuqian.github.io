@@ -18,7 +18,7 @@ author: Bo Tian
 
 navbar-links:
   Posts: "blog"
-  Tag Index: "tags"
+  Tags: "tags"
   # Resume: "assets/Baihu_Qian_resume.pdf"
   Photos:
   #   - Flowers: "photos/flowers"
