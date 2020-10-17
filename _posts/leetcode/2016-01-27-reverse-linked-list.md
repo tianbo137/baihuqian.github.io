@@ -18,12 +18,6 @@ Double pointer with one pointing at the end of the reverted part and another one
 
 # Solution
 
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
 class Solution(object):
     def reverseList(self, head):
         """
