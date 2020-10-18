@@ -39,9 +39,6 @@ class Solution:
         :type n: int
         :rtype: ListNode
         """
-        if head == None or head.next == None:
-            return None
-        
         l = head
         r = head
         for i in range(n):
@@ -51,7 +48,7 @@ class Solution:
         while r.next != None:
             l = l.next
             r = r.next
-        l.next = l.next.next # this is the key line
+        l.next = l.next.next # key idea here is to think None as a valid next state
         return head
 
 ```
