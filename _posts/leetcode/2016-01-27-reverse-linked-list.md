@@ -1,45 +1,37 @@
 ---
 layout: "post"
 title: "Leetcode 206: Reverse Linked List"
-date: "2016-01-27 21:20"
+date: "2020-10-17"
 tags: Leetcode
 ---
 
 # Question
 Reverse a singly linked list.
 
+# Example 
+Input: 1->2->3->4->5->NULL 
+
+Output: 5->4->3->2->1->NULL
+
+# Idea
+Double pointer with one pointing at the end of the reverted part and another one pointing to the head the remaining part
+
 # Solution
 ```python
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
 class Solution(object):
     def reverseList(self, head):
         """
         :type head: ListNode
         :rtype: ListNode
         """
-        if head == None or head.next == None:
-            return head
-        elif head.next.next == None:
-            tmp = head.next
-            tmp.next = head
-            head.next = None
-            return tmp
-        else:
-            a = head
-            b = head.next
-            c = head.next.next
-            a.next = None
-            while c != None:
-                b.next = a
-                a = b
-                b = c
-                c = b.next
-            b.next = a
-            return b
+        prev = None
+        curr = head
 
+        while curr:
+            next = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next
+    
+        return prev
 ```
