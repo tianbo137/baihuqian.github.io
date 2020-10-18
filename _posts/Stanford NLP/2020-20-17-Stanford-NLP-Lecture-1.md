@@ -31,4 +31,4 @@ What you will learn
 
 
 ## Acknowledgement
-The original post can be found at [dataquest.io](https://www.dataquest.io/blog/numpy-cheat-sheet/).
+The original lecture video can be found at [CS224N](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z).
