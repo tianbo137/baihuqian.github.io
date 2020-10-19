@@ -14,7 +14,6 @@ Stanford NLP class in 2019, given by Professor Christopher Manning, is aimed at 
 
 ## What you will learn
 
-What you will learn
 *  Computational properties of natural languages
 * Neural network models for language understanding tasks
 * Word vectors, syntactic, and semantic processing
