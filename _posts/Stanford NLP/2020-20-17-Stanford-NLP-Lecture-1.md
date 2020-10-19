@@ -28,13 +28,17 @@ Stanford NLP class in 2019, given by Professor Christopher Manning, is aimed at 
 * Hw4 and Hw5 - Use PyTorch on a GPU (Microsoft Azure) 
 
 ## Examples of Task
+
 ### Easy
 * Spell Checking
 * Keyword Search
 * Finding Synonyms
+
 ### Medium
 * Parsing information from websites, documents, etc.
-### Hard  
+
+### Hard
+
 * Machine Translation (e.g. Translate Chinese text to English)
 * Semantic Analysis (What is the meaning of query statement?)
 * Coreference (e.g. What does "he" or "it" refer to given a docu-ment?)
