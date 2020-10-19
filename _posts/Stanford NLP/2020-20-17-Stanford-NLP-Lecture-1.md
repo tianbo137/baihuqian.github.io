@@ -28,8 +28,11 @@ What you will learn
 * Hw3 - PyTorch Intro
 * Hw4 and Hw5 - Use PyTorch on a GPU (Microsoft Azure) 
 
-## How to represent the meaning of a word
-
+## Examples of Task
+### Easy
+* Spell Checking
+* Keyword Search
+* Finding Synonyms
 
 
 ## Acknowledgement
