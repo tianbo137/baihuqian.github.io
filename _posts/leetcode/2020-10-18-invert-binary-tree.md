@@ -31,6 +31,7 @@ to
 * The left subtree of root node is given by root.left = invert(root.right); while the right subtree of root node is given by root.right = invert(root.left);
 * In order to perform the exchange at the same time, they need to be put on the same line.
 * Time complexity is O(N) where N is the number of nodes and space complexity is between O(logN) and O(N) depends on the shape of the tree.
+
 # Solution
 
 ```python
