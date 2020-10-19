@@ -7,7 +7,7 @@ tags:
  - DataScience
 ---
 
-Stanford NLP class in 2019, given by Professor Manning, is aimed at exploring the fundamental concepts of NLP and its role in current and emerging technologies. 
+Stanford NLP class in 2019, given by Professor Christopher Manning, is aimed at exploring the fundamental concepts of NLP and its role in current and emerging technologies. 
 
 * TOC
 {:toc}
@@ -27,6 +27,8 @@ What you will learn
 * Hw2 - Basic Numpy
 * Hw3 - PyTorch Intro
 * Hw4 and Hw5 - Use PyTorch on a GPU (Microsoft Azure) 
+
+## How to represent the meaning of a word
 
 
 
