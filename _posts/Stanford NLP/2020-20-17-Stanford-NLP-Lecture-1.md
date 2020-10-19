@@ -33,6 +33,13 @@ What you will learn
 * Spell Checking
 * Keyword Search
 * Finding Synonyms
+### Medium
+* Parsing information from websites, documents, etc.
+### Hard  
+* Machine Translation (e.g. Translate Chinese text to English)
+* Semantic Analysis (What is the meaning of query statement?)
+* Coreference (e.g. What does "he" or "it" refer to given a docu-ment?)
+* Question Answering (e.g. Answering Jeopardy questions).
 
 
 ## Acknowledgement
