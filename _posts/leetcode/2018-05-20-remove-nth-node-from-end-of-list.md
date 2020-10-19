@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Leetcode 19: Remove Nth Node From End of List"
-date: "2018-05-20 22:25"
+date: "2020-10-18"
 tags:
   - Leetcode
 ---
@@ -39,20 +39,16 @@ class Solution:
         :type n: int
         :rtype: ListNode
         """
-        nth_prev = head
-        tail = head
-        for i in range(0, n):
-            tail = tail.next
-
-        if tail is None:
-            head = head.next
-            return head
-
-        while tail.next is not None:
-            nth_prev = nth_prev.next
-            tail = tail.next
-
-        nth_prev.next = nth_prev.next.next
+        l = head
+        r = head
+        for i in range(n):
+            r = r.next
+        if r == None:
+            return head.next
+        while r.next != None:
+            l = l.next
+            r = r.next
+        l.next = l.next.next # key idea here is to think None as a valid next state
         return head
 
 ```

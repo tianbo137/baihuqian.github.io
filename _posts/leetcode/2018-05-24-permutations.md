@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Leetcode 46: Permutations"
-date: '2018-05-24 23:23'
+date: '2020-10-18'
 tags:
   - Leetcode
-  - Backtracking
 ---
 
 # Question
@@ -25,8 +24,6 @@ Output:
 ```
 
 # Solution
-Be careful with pass-by-reference. Copies of lists must be made to create separate results.
-
 ```python
 class Solution:
     def permute(self, nums):
@@ -34,19 +31,11 @@ class Solution:
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        def p(ns):
-            if len(ns) == 1:
-                return [list(ns)]
-            res = []
-            for n in ns:
-                new_ns = set(ns)
-                new_ns.remove(n)
-                for m in p(new_ns):
-                    m.append(n)
-                    res.append(m)
-
-            return res
-
-        return p(set(nums))
+        if len(nums) < 2:
+            return [nums]
+        result = []
+        for perm in self.permute(nums[:-1]):
+            result += [perm[:i] + [nums[-1]] + perm[i:] for i in range(len(perm) + 1)]
+        return result  
 
 ```
