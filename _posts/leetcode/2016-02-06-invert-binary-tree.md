@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Leetcode 226: Invert Binary Tree"
-date: "2016-02-06 23:56"
+date: "2020-10-18"
 tags: Leetcode
 ---
 
@@ -25,7 +25,12 @@ to
  / \   / \
 9   6 3   1
 ```
-
+# Idea
+* Base case is when the node is None and we simply return the node;
+* Eventually we will return root as it will be the root of the inverted tree;
+* The left subtree of root node is given by root.left = invert(root.right); while the right subtree of root node is given by root.right = invert(root.left);
+* In order to perform the exchange at the same time, they need to be put on the same line.
+* Time complexity is O(N) where N is the number of nodes and space complexity is between O(logN) and O(N) depends on the shape of the tree.
 # Solution
 
 ```python
@@ -42,24 +47,8 @@ class Solution(object):
         :type root: TreeNode
         :rtype: TreeNode
         """
-        if root is None:
-            return None
-
-        node_list = [root]
-        while True:
-            try:
-                n = node_list[-1]
-                del node_list[-1]
-                l = n.left
-                r = n.right
-                n.left = r
-                n.right = l
-                if l is not None:
-                    node_list.append(l)
-                if r is not None:
-                    node_list.append(r)
-
-            except IndexError:
-                break
+        if not root:
+            return
+        root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
         return root
 ```
