@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "2020-10-21-MLF-1-Course Introduction"
+title: "MLF 1: Course Introduction"
 date: "2020-10-21"
 tags:
  - MachineLearning
