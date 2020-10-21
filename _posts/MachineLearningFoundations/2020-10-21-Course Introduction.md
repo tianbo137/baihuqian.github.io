@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "MachineLearningFoundations"
+title: "2020-10-21-CourseIntroduction"
 date: "2020-10-21"
 tags:
  - MachineLearning
