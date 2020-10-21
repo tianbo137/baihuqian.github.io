@@ -1,6 +1,15 @@
+---
+layout: "post"
+title: "MachineLearningFoundations"
+date: "2020-10-21"
+tags:
+ - MachineLearning
+ - DataScience
+---
+
+
 # NTU-HsuanTienLin-MachineLearning（林轩田机器学习）
 
-![](images/1.jpg)
 
 ## 1. Course Info
 
@@ -144,11 +153,6 @@
 
 [Learning From Data](http://amlbook.com/)
 
-![](images/4.jpg)
-
-豆瓣上关于这本书的评分高达9.4，还是很不错的，值得推荐！可以配套视频一起学习。
-
-![](images/5.jpg)
 
 
 
