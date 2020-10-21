@@ -37,43 +37,43 @@ tags:
 
 - **When Can Machine Learn?**
 	
- - [The Learning Problem](https://redstonewill.com/65/)
+ - [The Learning Problem]
 
- - [Learning to Answer Yes/No](https://redstonewill.com/70/)
+ - [Learning to Answer Yes/No]
 
- - [Types of Learning](https://redstonewill.com/73/)
+ - [Types of Learning]
 
- - [Feasibility of Learning](https://redstonewill.com/77/)
+ - [Feasibility of Learning]
 
 - **Why Can Machine Learn?**
 
- - [Training versus Testing](https://redstonewill.com/80/)
+ - [Training versus Testing]
 
- - [Theory of Generalization](https://redstonewill.com/217/)
+ - [Theory of Generalization]
 
- - [The VC Dimension](https://redstonewill.com/222/)
+ - [The VC Dimension]
 
- - [Noise and Error](https://redstonewill.com/227/)
+ - [Noise and Error]
 
 - **How Can Machine Learn?**
 
- - [Linear Regression](https://redstonewill.com/232/)
+ - [Linear Regression]
 
- - [Logistic Regression](https://redstonewill.com/236/)
+ - [Logistic Regression]
 
- - [Linear Models for Classification](https://redstonewill.com/243/)
+ - [Linear Models for Classification]
 
- - [Nonlinear Transformation](https://redstonewill.com/246/)
+ - [Nonlinear Transformation]
 
 - **How Can Machine Learn Better?**
 
- - [Hazard of Overfitting](https://redstonewill.com/249/)
+ - [Hazard of Overfitting]
 
- - [Regularization](https://redstonewill.com/252/)
+ - [Regularization]
 
- - [Validation](https://redstonewill.com/255/)
+ - [Validation]
 
- - [Three Learning Principles](https://redstonewill.com/311/)
+ - [Three Learning Principles]
 	
 ### 2.2 《机器学习技法》
 
@@ -89,41 +89,40 @@ tags:
 
 - **Embedding Numerous Features: Kernel Models**
 	
- - [Linear Support Vector Machine](https://redstonewill.com/345/)
+ - [Linear Support Vector Machine]
+ 
+ - [Dual Support Vector Machine]
+ 
+ - [Kernel Support Vector Machine]
 
- - [Dual Support Vector Machine](https://redstonewill.com/369/)
-
- - [Kernel Support Vector Machine](https://redstonewill.com/393/)
-
- - [Soft-Margin Support Vector Machine](https://redstonewill.com/417/)
+ - [Soft-Margin Support Vector Machine]
 	
- - [Kernel Logistic Regression](https://redstonewill.com/456/)
+ - [Kernel Logistic Regression]
 	
- - [Support Vector Regression](https://redstonewill.com/477/)
+ - [Support Vector Regression]
 
 - **Combining Predictive Features: Aggregation Models**
 
- - [Blending and Bagging](https://redstonewill.com/509/)
+ - [Blending and Bagging]
+ 
+ - [Adaptive Boosting]
 
- - [Adaptive Boosting](https://redstonewill.com/535/)
+ - [Decision Tree]
 
- - [Decision Tree](https://redstonewill.com/569/)
-
- - [Random Forest](https://redstonewill.com/601/)
+ - [Random Forest]
 	
- - [Gradient Boosted Decision Tree](https://redstonewill.com/644/)
+ - [Gradient Boosted Decision Tree]
 
 - **Distilling Implicit Features: Extraction Models**
 
- - [Neural Network](https://redstonewill.com/682/)
+ - [Neural Network]
 
- - [Deep Learning](https://redstonewill.com/710/)
+ - [Deep Learning]
+ - [Radial Basis Function Network]
 
- - [Radial Basis Function Network](https://redstonewill.com/739/)
-
- - [Matrix Factorization](https://redstonewill.com/783/)
+ - [Matrix Factorization]
 	
- - [Finale](https://redstonewill.com/810/)
+ - [Finale]
 
 ## 3. 资源汇总
 
