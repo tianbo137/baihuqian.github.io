@@ -1,3 +1,19 @@
+
+---
+layout: "post"
+title: "MachineLearningFoundations"
+date: "2020-10-21"
+tags:
+ - MachineLearning
+ - DataScience
+---
+
+
+* TOC
+{:toc}
+
+
+
 # NTU-HsuanTienLin-MachineLearning（林轩田机器学习）
 
 ![](images/1.jpg)
