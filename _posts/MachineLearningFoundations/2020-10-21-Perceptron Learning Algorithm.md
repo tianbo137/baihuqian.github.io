@@ -10,5 +10,5 @@ tags:
 * Binary classification (i.e. y \in {-1, +1})
 
 
-  $$a^2 + b^2 = c^2$$ 
+  $a^2 + b^2 = c^2$
  
