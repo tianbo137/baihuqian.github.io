@@ -1,3 +1,4 @@
+usemathjax: true
 ---
 layout: "post"
 title: "MLF 2: Perceptron Learning Algorithm"
