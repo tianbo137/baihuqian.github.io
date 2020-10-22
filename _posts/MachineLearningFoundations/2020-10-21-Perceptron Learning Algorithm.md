@@ -6,3 +6,5 @@ tags:
  - MachineLearning
  - DataScience
 ---
+## Assumptions
+* Binary classification (i.e. y \in {-1, +1})
