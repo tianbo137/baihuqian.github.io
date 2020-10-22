@@ -6,18 +6,15 @@ tags:
  - MachineLearning
  - DataScience
 ---
+A perceptron is a  **linear (binary) classifier** on the training dataset $$\{x_i, y_i\} $$ where $$y_i$$ takes value in $$ \{-1, +1\}.$$
 
-## Assumptions
-* Linear (binary) classification (i.e. $$y_i \in \{-1, +1\}$$)
-* Data is linearly separable
+## The Linear Separability Assumption
 
-As you may know, two sets are linearly separable if and only if their convex hull has no intersection. We can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) to check whether this condition is true or not; another approach is to use the linear SVM to see if the corresponding error vanishes.
+For a perceptron classifier to work, we need the data set to be linearly separable. As you may know, two sets are linearly separable if and only if their convex hull has no intersection. Famous example of a simple non-linearly separable data set, the XOR problem is given by Minsky in 1969, which led to invention of multi-layer networks. To check the linear separable condition, we can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) or to use the linear SVM to see if the corresponding error vanishes.
 
-Famous example of a simple non-linearly separable data set, the XOR problem is given by (Minsky 1969): 
 
-![perceptron3](/assets/img/perceptron_img4.png){ width=50% }
 
-## Classifier
+## The Classifier
 We composite the sign function with the linear regression model to get 
 
 $$ 
@@ -57,7 +54,7 @@ $$
 
 where 'classified correctly' means that $$x_i$$ is on the correct side of the hyperplane defined by the weight vector $$\mathbf{w}$$. Also, note that the left side depends on $$y_i \in \{−1,+1\}$$ (it wouldn't work for $$yi \in \{0,+1\}$$). 
 
-## Perceptron Algorithm
+## The Perceptron Learning Algorithm
 Now that we know what the w is supposed to do (defining a hyperplane the separates the data), let's look at how we can get such w:
 
 ![perceptron_img](/assets/img/perceptron_algo.png)
@@ -67,3 +64,13 @@ Intuitively, we have
 ![perceptron_img](/assets/img/PerceptronUpdate.png)
 
 (Left:) The hyperplane defined by $$\mathbf{w}_t$$ misclassifies one red (-1) and one blue (+1) point. (Middle:) The red point x is chosen and used for an update. Because its label is -1 we need to subtract x from $$\mathbf{w}_t$$. (Right:) The udpated hyperplane $$\mathbf{w}_{t+1}$$ = $$\mathbf{w}_t$$ − $$\mathbf{x}$$ separates the two classes and the Perceptron algorithm has converged.
+
+## Convergence Theroem of the Perceptron Algorithm 
+
+We refer the interested reader to the rigourous [proof](/assets/pdf/perceptron_convergence_theorem.pdf) of the convergence theorem.
+
+## More About Perceptron Learning Algorithm
+* Pro: simple to implement, fast, works in any dimension.
+* Con: linear separable unknown a priori, halting time unknown which depends on the how "separated" the training data is.
+* If the data set is not linear separable and if we relax the condition to find a line which minimize the number of mistakes $$ \{ y_i \neq sign(\mathbf{w}^T\mathbf{x_i})\}. $$ This problem is **NP-hard** to solve, unfortunately.
+* The alternate solution is to hold somewhat the "best" weight in a pocket.
