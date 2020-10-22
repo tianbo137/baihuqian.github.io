@@ -33,4 +33,4 @@ $$
 \end{align}
 $$
 
-We refer the interested reader to the [proof](/assets/pdf/hoeffding.pdf) for more details.
+The [proof] of the Hoeffding theorem can be found [here](/assets/pdf/hoeffding.pdf), and it provides us with the following understanding of the feasibility of learning: let $$g$$ be a hypothesis approximating our target $$f$$, and let $$ E_{in}(g) $$ and $$E_{out}(g)$$ denote the error made by $$g$$ for the training data and test data respectively. What Hoeffding theorem is saying is that we can **almost surely approximately** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile. The remaining question is **if we can make E_{in}(g) small**, which will be answered by the various learning algorithms to be introduced.
