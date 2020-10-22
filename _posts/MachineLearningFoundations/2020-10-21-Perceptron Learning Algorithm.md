@@ -82,3 +82,5 @@ $$
 $$
 
 This problem is **NP-hard** to solve, unfortunately.
+
+* The alternate solution is to hold somewhat the "best" weight in a pocket.
