@@ -1,10 +1,48 @@
 <head>
 
+<<<<<<< HEAD
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} | {{ site.description }}
     {% else %}
       {{ page.title }} | {{ site.title }}
+=======
+  {% if page.ext-css %}
+    {% for css in page.ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
+
+  {% if page.css %}
+    {% for css in page.css %}
+      <link rel="stylesheet" href="{{ css | relative_url }}">
+    {% endfor %}
+  {% endif %}
+
+  {% if site.fb_app_id %}
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
+  {% endif %}
+
+  {% if site.title %}
+  <meta property="og:site_name" content="{{ site.title }}">
+  {% endif %}
+  
+  
+
+  {%- capture img -%}
+    {%- if page.share-img -%}
+      {{ page.share-img }}
+    {%- elsif page.cover-img -%}
+      {%- if page.cover-img.first -%}
+        {{ page.cover-img[0].first.first }}
+      {%- else -%}
+        {{ page.cover-img }}
+      {%- endif -%}
+    {%- elsif page.thumbnail-img -%}
+      {{ page.thumbnail-img }}
+    {%- elsif site.avatar -%}
+      {{ site.avatar }}
+>>>>>>> f45007ab74998d55d417e010ac0407592a8593df
     {% endif %}
   </title>
 
@@ -24,19 +62,31 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
-        }
-      });
-  </script>
+  
 
   <!-- Google Analytics -->
   {% include google-analytics.html %}
 
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
+<<<<<<< HEAD
 
+=======
+  {% if page.comments and site.staticman.repository and site.staticman.branch %}
+  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
+  {% endif %}
+
+  {% if page.head-extra %}
+    {% for file in page.head-extra %}
+      {% include {{ file }} %}
+    {% endfor %}
+  {% endif %}
+  
+  {% if page.usemathjax %}
+<script type="text/javascript" async
+ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+{% end if %}
+  
+>>>>>>> f45007ab74998d55d417e010ac0407592a8593df
 </head>
