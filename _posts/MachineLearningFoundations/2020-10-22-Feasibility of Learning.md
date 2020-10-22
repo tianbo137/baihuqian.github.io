@@ -20,7 +20,7 @@ The average performance of any pair of algorithms across all possible problems i
 
 ## Hoeffding’s inequality:
 
-Suppose that $$X_1,...,X_n$$ are independent random variable satisfying that $$a_i \leq X_i \leq b_i$$ and $$\mathbb{E}[X_i] = \mu$$. Then for any $$t >0$$,
+Suppose that $$X_1,...,X_n$$ are independent random variables satisfying that $$a_i \leq X_i \leq b_i$$ and $$\mathbb{E}[X_i] = \mu$$. Then for any $$t >0$$,
 
 $$
 \begin{align}
