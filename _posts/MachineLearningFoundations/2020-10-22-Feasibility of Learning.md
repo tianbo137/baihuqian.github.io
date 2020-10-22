@@ -33,4 +33,15 @@ $$
 \end{align}
 $$
 
-Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. The [proof] of the Hoeffding theorem can be found [here](/assets/pdf/hoeffding.pdf), and it provides us with the following understanding of the feasibility of learning: let $$g$$ be a hypothesis approximating our target $$f$$, and let $$ E_{in}(g) $$ and $$E_{out}(g)$$ denote the error made by $$g$$ for the training data and test data respectively. What Hoeffding theorem is saying is that we can **almost surely approximately** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile. The remaining question is **if we can make E_{in}(g) small**, which will be answered by the various learning algorithms to be introduced.
+Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. In the special case of $X_i$ obeys the Bournoulli distribution with sample mean $$\nu$$, the above inequality specialize to
+
+$$
+\begin{align}
+\mathbb{P}(\lVert \nu − \mu \rVert \geq \epsilon) \leq 2 \text{exp}\big( -{2n^2 \epsilon^2}\big)
+\end{align}
+$$
+
+which says that as the sample size n grows, it becomes exponentially unlikely that v will deviate from $$\mu$$ by more than our 'tolerance' $$\epsilon$$. The proof of the Hoeffding theorem can be found [here](/assets/pdf/hoeffding.pdf), and it provides us with the following understanding of the feasibility of learning: let $$g$$ be a hypothesis approximating our target $$f$$, and let $$ E_{in}(g) $$ and $$E_{out}(g)$$ denote the error made by $$g$$ for the training data and test data respectively. What Hoeffding theorem is saying is that we can **almost surely approximately** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile. The remaining question is **if we can make $$E_{in}(g)$$ small**, which will be answered by the various learning algorithms to be introduced.
+
+### Complexity of the space of all hypothesis $$\mathcal{H}$$
+
