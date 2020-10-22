@@ -13,6 +13,10 @@ tags:
 
 As you may know, two sets are linearly separable if and only if their convex hull has no intersection. We can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) to check whether this condition is true or not; another approach is to use the linear SVM to see if the corresponding error vanishes.
 
+Famous example of a simple non-linearly separable data set, the XOR problem is given by (Minsky 1969): 
+
+![perceptron3](/assets/img/perceptron_img4.png)
+
 ## Classifier
 We composite the sign function with the linear regression model to get 
 
