@@ -37,7 +37,7 @@ Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. In the special 
 
 $$
 \begin{align}
-\mathbb{P}(\lVert \nu − \mu \rVert \geq \epsilon) \leq 2 \text{exp}\big( -{2n^2 \epsilon^2}\big)
+\mathbb{P}(\lVert \nu − \mu \rVert \geq \epsilon) \leq 2 \text{exp}\big( -{2n \epsilon^2}\big)
 \end{align}
 $$
 
