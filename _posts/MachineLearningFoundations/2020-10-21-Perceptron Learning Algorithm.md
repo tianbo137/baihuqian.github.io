@@ -16,7 +16,7 @@ As you may know, two sets are linearly separable if and only if their convex hul
 ## Classifier
 We apply the sign function to the linear regression model and get $$ h(x_i) = \text{sign}(\mathbf{w}^{T}x_i + \mathbf{b}).$$ 
 
-![](https://github.com/tianbo137/tianbo137.github.io/blob/master/photos/perceptron_img1.png)
+![See the following picture](https://github.com/tianbo137/tianbo137.github.io/blob/master/photos/perceptron_img1.png)
 
 b is the bias term (without the bias term, the hyperplane that w defines would always have to go through the origin). Dealing with b can be a pain, so we 'absorb' it into the feature vector w by adding one additional constant dimension. Under this convention, 
 $$\mathbf{x}_i \hspace{0.1in} \text{becomes} \hspace{0.1in} \begin{bmatrix} \mathbf{x}_i \\ 1  \end{bmatrix} \\
