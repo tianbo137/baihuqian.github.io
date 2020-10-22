@@ -88,8 +88,7 @@
   {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}
-  
-  
+
   {%- capture img -%}
     {%- if page.share-img -%}
       {{ page.share-img }}
@@ -142,15 +141,6 @@
   {% endif %}
 
   {% include matomo.html %}
-  
-   <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
-        }
-      });
-  </script>
 
   {% seo %}
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
@@ -162,7 +152,5 @@
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
-  
 
-  
 </head>
