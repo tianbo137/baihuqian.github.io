@@ -45,3 +45,10 @@ which says that as the sample size n grows, it becomes exponentially unlikely th
 
 ### Complexity of the space of all hypothesis $$\mathcal{H}$$
 
+If the size of hypotheses set $$\mathcal{H}$$, denoted by m, goes up, we run more risk that $$E_{in}(g)$$ will be a poor estimator of $$E_{out}(g)$$ according to the Hoeffding inequality. Thus the m can be thought of as a measure of the 'complexity' of $$\mathcal{H}$$. If we want an affirmative answer to the first
+question, we need to keep m in check. However, if we want
+an affirmative answer to the second question, we stand a better chance if $$\mathcal{H}$$
+is more complex, since g has to come from $$\mathcal{H}$$. So, a more complex $$\mathcal{H}$$ gives us
+more flexibility in finding some g that fits the data well, leading to small $$E_{in}(g)$$.
+
+This tradeoff in the complexity of 1{ is a major theme in learning theory
