@@ -15,7 +15,7 @@ As you may know, two sets are linearly separable if and only if their convex hul
 
 Famous example of a simple non-linearly separable data set, the XOR problem is given by (Minsky 1969): 
 
-![perceptron3](/assets/img/perceptron_img4.png){width=50%}
+![perceptron3](/assets/img/perceptron_img4.png){ width=50% }
 
 ## Classifier
 We composite the sign function with the linear regression model to get 
@@ -61,6 +61,8 @@ where 'classified correctly' means that $$x_i$$ is on the correct side of the hy
 Now that we know what the w is supposed to do (defining a hyperplane the separates the data), let's look at how we can get such w:
 
 ![perceptron_img](/assets/img/perceptron_algo.png)
+
+Intuitively, the update is illustrated as below:
 
 ![perceptron_img](/assets/img/PerceptronUpdate.png)
 
