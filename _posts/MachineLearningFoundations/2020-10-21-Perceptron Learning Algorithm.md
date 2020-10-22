@@ -8,7 +8,7 @@ tags:
 ---
 
 ## Assumptions
-* Binary classification (i.e. $$y_i \in \{-1, +1\}$$)
+* Linear (binary) classification (i.e. $$y_i \in \{-1, +1\}$$)
 * Data is linearly separable
 
 As you may know, two sets are linearly separable if and only if their convex hull has no intersection. We can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) to check whether this condition is true or not; another approach is to use the linear SVM to see if the corresponding error vanishes.
@@ -26,7 +26,7 @@ h(x_i) = \text{sign}(\mathbf{w}^{T}x_i + b)
 \end{align}
 $$ 
 
-where b is the bias term (intuitively the y-intercept in 2-D). See the following picture for an intuitive understanding of the perceptron model:
+where b is the **threshold** term (intuitively the y-intercept in 2-D). See the following picture for an intuitive understanding of the perceptron model:
 
 ![perceptron_img1](/assets/img/perceptron_img1.png)
 
@@ -47,7 +47,7 @@ h(\mathbf{x}_i) = \textrm{sign}(\mathbf{w}^\top \mathbf{x})
 \end{align}
 $$
 
-Observation: we note that
+Geometrically speaking, any hyperplane given by the weight vector $$\mathbf{w}$$ is an eligible perceptron and therefore there are **infinitely** many possible choices. How dow we choose one based on the training data set $$\{(x_i, y_i)\}$$. A key obervation is that 
 
 $$
 \begin{align}
@@ -55,4 +55,12 @@ y_i(\mathbf{w}^\top \mathbf{x}_i) > 0 \Longleftrightarrow \mathbf{x}_i \hspace{0
 \end{align}
 $$
 
-where 'classified correctly' means that $$x_i$$ is on the correct side of the hyperplane defined by $$\mathbf{w}$$. Also, note that the left side depends on $$y_i \in \{−1,+1\}$$ (it wouldn't work for $$yi \in \{0,+1\}$$). 
+where 'classified correctly' means that $$x_i$$ is on the correct side of the hyperplane defined by the weight vector $$\mathbf{w}$$. Also, note that the left side depends on $$y_i \in \{−1,+1\}$$ (it wouldn't work for $$yi \in \{0,+1\}$$). 
+
+## Perceptron Algorithm
+Now that we know what the w is supposed to do (defining a hyperplane the separates the data), let's look at how we can get such w:
+
+![perceptron_img](/assets/img/perceptron_algo.png)
+
+![perceptron_img](/assets/img/PerceptronUpdate.png)
+
