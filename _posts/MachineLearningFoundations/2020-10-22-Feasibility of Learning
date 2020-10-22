@@ -7,7 +7,9 @@ tags:
  - DataScience
 ---
 
-# No Free Lunch Theorem
+## No Free Lunch Theorem
 
 The average performance of any pair of algorithms across all possible problems is identical.
+
+##
 
