@@ -12,9 +12,7 @@ The perceptron is a  **linear (binary) classifier** on the training dataset $$\{
 
 For the perceptron classifier to work, we need the data set to be linearly separable. As you may know, two sets are linearly separable if and only if their convex hull has no intersection. We can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) to check whether this condition is true or not; another approach is to use the linear SVM to see if the corresponding error vanishes.
 
-Famous example of a simple non-linearly separable data set, the XOR problem is given by (Minsky 1969): 
-
-![perceptron3](/assets/img/perceptron_img4.png)
+Famous example of a simple non-linearly separable data set, the XOR problem is given by (Minsky 1969), which led to invention of multi-layer networks.
 
 ## Classifier
 We composite the sign function with the linear regression model to get 
@@ -74,5 +72,4 @@ We refer the interested reader to the rigourous [proof](/assets/pdf/perceptron_c
 * Pro: simple to implement, fast, works in any dimension.
 * Con: linear separable unknown a priori, halting time unknown which depends on the how "separated" the training data is.
 * If the data set is not linear separable and if we relax the condition to find a line which minimize the number of mistakes $$ \{ y_i \neq sign(\mathbf{w}^T\mathbf{x_i})\}. $$ This problem is **NP-hard** to solve, unfortunately.
-
 * The alternate solution is to hold somewhat the "best" weight in a pocket.
