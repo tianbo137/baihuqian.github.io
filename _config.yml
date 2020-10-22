@@ -192,8 +192,6 @@ date_format: "%B %-d, %Y"
 # Output options (more information on Jekyll's site)
 timezone: "America/Chicago"
 markdown: kramdown
-kramdown:
-    math_engine: katex
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 # paginate: 5
