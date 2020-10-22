@@ -73,14 +73,6 @@ We refer the interested reader to the rigourous [proof](/assets/pdf/perceptron_c
 ## More About PLA
 * Pro: simple to implement, fast, works in any dimension.
 * Con: linear separable unknown a priori, halting time unknown which depends on the how "separated" the training data is.
-* If the data set is not linear separable and if we relax the condition to find a line which minimize the number of mistakes defined below:
-
-$$ 
-\begin{align}
- #\{ y_i \neq sign(\mathbf{w}^T\mathbf{x_i})\}
-\end{\align}
-$$
-
-This problem is **NP-hard** to solve, unfortunately.
+* If the data set is not linear separable and if we relax the condition to find a line which minimize the number of mistakes $$ \{ y_i \neq sign(\mathbf{w}^T\mathbf{x_i})\}. $$ This problem is **NP-hard** to solve, unfortunately.
 
 * The alternate solution is to hold somewhat the "best" weight in a pocket.
