@@ -25,10 +25,12 @@ The average performance of any pair of algorithms across all possible problems i
 
 ### Hoeffding’s inequality:
 
-Suppose that $$X_1,...,X_n$$ are independent random variables satisfying that $$a_i \leq X_i \leq b_i$$ and $$\mathbb{E}[X_i] = \mu$$. Then for any $$t >0$$,
+Suppose that $$X_1,...,X_n$$ are independent bounded random variables satisfying that $$a_i \leq X_i \leq b_i$$ and $$\mathbb{E}[X_i] = \mu$$. Then for any $$t >0$$,
 
 $$
 \begin{align}
 \mathbb{P}(||X − \mu \∣ \geq t) \leq 2 \text{exp}\big( - \frac{2n^2 t^2}{\sum (b_i - a_i)^2}\big)
 \end{align}
 $$
+
+
