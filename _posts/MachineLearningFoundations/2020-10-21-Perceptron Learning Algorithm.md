@@ -21,7 +21,11 @@ $$
 h(x_i) = \text{sign}(\mathbf{w}^{T}x_i + b)
 \end{align}
 $$ 
-where b is the bias term (intuitively the y-intercept in 2-D). Dealing with b can be a pain, so we 'absorb' it into the feature vector $$\mathbf{w}$$ by adding one additional constant dimension. Under this convention,
+where b is the bias term (intuitively the y-intercept in 2-D). See the following picture for an intuitive understanding of the perceptron model:
+
+![perceptron_img1](/assets/img/perceptron_img1.png)
+
+As dealing with b can be a pain, we 'absorb' it into the weight vector $$\mathbf{w}$$ by adding one additional constant dimension. Under this convention,
 
 $$
 \begin{align*}
