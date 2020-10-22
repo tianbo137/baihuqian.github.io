@@ -23,6 +23,8 @@ The average performance of any pair of algorithms across all possible problems i
 
 ## Probability to Rescue
 
+The key observation here is that, we will want our observations be **random**, which will allow us to believe that our observations are representative of the larger population. 
+
 ### Hoeffding’s inequality:
 
 Suppose that $$X_1,...,X_n$$ are independent bounded random variables satisfying that $$a_i \leq X_i \leq b_i$$ and $$\mathbb{E}[X_i] = \mu$$. Then for any $$\epsilon >0$$,
