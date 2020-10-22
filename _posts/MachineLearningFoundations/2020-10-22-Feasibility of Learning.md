@@ -35,7 +35,7 @@ $$
 \end{align}
 $$
 
-Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. In the special case of $X_i$ obeys the Bournoulli distribution with sample mean $$\nu$$, the above inequality specialize to
+Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. In the special case of $X_i$ obeys the binormial distribution with sample mean $$\nu$$, the above inequality specialize to
 
 $$
 \begin{align}
