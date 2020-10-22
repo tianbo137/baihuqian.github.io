@@ -46,3 +46,13 @@ $$
 h(\mathbf{x}_i) = \textrm{sign}(\mathbf{w}^\top \mathbf{x})
 \end{align}
 $$
+
+Observation: we note that
+
+$$
+\begin{align}
+y_i(\mathbf{w}^\top \mathbf{x}_i) > 0 \Longleftrightarrow \mathbf{x}_i \hspace{0.1in} \text{is classified correctly}
+\end{align}
+$$
+
+where 'classified correctly' means that $$x_i$$ is on the correct side of the hyperplane defined by $$\mathbf{w}$$. Also, note that the left side depends on $$y_i \in \{−1,+1\}$$ (it wouldn't work for $$yi \in \{0,+1\}$$). 
