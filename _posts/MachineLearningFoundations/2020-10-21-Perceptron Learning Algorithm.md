@@ -68,4 +68,16 @@ Intuitively, we have
 (Left:) The hyperplane defined by $$\mathbf{w}_t$$ misclassifies one red (-1) and one blue (+1) point. (Middle:) The red point x is chosen and used for an update. Because its label is -1 we need to subtract x from $$\mathbf{w}_t$$. (Right:) The udpated hyperplane $$\mathbf{w}_{t+1}$$ = $$\mathbf{w}_t$$ − $$\mathbf{x}$$ separates the two classes and the Perceptron algorithm has converged.
 
 ## Convergence of the Perceptron Algorithm (when linear separability condition is true)
-A rigourous [proof](/assets/pdf/perc.converge.pdf) of the convergence theorem is given by Michael Collins, and we refer the interested reader for more details.
+We refer the interested reader to the rigourous [proof](/assets/pdf/perceptron_convergence_theorem.pdf) of the convergence theorem.
+
+## More About PLA
+* Pro: simple to implement, fast, works in any dimension.
+* Con: linear separable unknown a priori, halting time unknown which depends on the how "separated" the training data is.
+* If the data set is not linear separable and if we relax the condition to find a line with least mistakes 
+
+$$ 
+\begin{align}
+\min #\{ y_i \neq sign(\mathbf{w}^T\mathbf{x_i})\}
+\end{\align}
+$$
+
