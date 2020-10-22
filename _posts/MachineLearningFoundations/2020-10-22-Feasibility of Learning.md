@@ -49,6 +49,4 @@ If the size of hypotheses set $$\mathcal{H}$$, denoted by m, goes up, we run mor
 question, we need to keep m in check. However, if we want
 an affirmative answer to the second question, we stand a better chance if $$\mathcal{H}$$
 is more complex, since g has to come from $$\mathcal{H}$$. So, a more complex $$\mathcal{H}$$ gives us
-more flexibility in finding some g that fits the data well, leading to small $$E_{in}(g)$$.
-
-This tradeoff in the complexity of 1{ is a major theme in learning theory
+more flexibility in finding some g that fits the data well, leading to small $$E_{in}(g)$$. This tradeoff in the complexity of $$\mathcal{H}$$ is a major theme in learning theory.
