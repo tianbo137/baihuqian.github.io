@@ -33,4 +33,4 @@ $$
 \end{align}
 $$
 
-
+We refer the interested reader to the [proof](/assets/pdf/hoeffding.pdf) for more details.
