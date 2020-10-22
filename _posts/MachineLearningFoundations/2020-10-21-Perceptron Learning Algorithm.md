@@ -21,6 +21,7 @@ $$
 h(x_i) = \text{sign}(\mathbf{w}^{T}x_i + b)
 \end{align}
 $$ 
+
 where b is the bias term (intuitively the y-intercept in 2-D). See the following picture for an intuitive understanding of the perceptron model:
 
 ![perceptron_img1](/assets/img/perceptron_img1.png)
