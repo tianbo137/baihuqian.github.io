@@ -6,13 +6,13 @@ tags:
  - MachineLearning
  - DataScience
 ---
-The perceptron is a  **linear (binary) classifier** on the training dataset $$\{x_i, y_i\} $$ where $$y_i$$ takes value in $$ \{-1, +1\}.$$
+A perceptron is a  **linear (binary) classifier** on the training dataset $$\{x_i, y_i\} $$ where $$y_i$$ takes value in $$ \{-1, +1\}.$$
 
 ## The Linear Separability Assumption
 
-For the perceptron classifier to work, we need the data set to be linearly separable. As you may know, two sets are linearly separable if and only if their convex hull has no intersection. We can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) to check whether this condition is true or not; another approach is to use the linear SVM to see if the corresponding error vanishes.
+For a perceptron classifier to work, we need the data set to be linearly separable. As you may know, two sets are linearly separable if and only if their convex hull has no intersection. Famous example of a simple non-linearly separable data set, the XOR problem is given by Minsky in 1969, which led to invention of multi-layer networks. To check the linear separable condition, we can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) or to use the linear SVM to see if the corresponding error vanishes.
 
-Famous example of a simple non-linearly separable data set, the XOR problem is given by (Minsky 1969), which led to invention of multi-layer networks.
+
 
 ## The Classifier
 We composite the sign function with the linear regression model to get 
