@@ -6,7 +6,7 @@ tags:
  - MachineLearning
  - DataScience
 ---
-The perceptron is a  **linear (binary) classifier** (i.e. $$y_i \in \{-1, +1\}$$)
+The perceptron is a  **linear (binary) classifier** on the training dataset $$\{x_i, y_i\} $$ where $$y_i$$ takes value in $$ \{-1, +1\}.$$
 
 ## Linear Separability Assumption
 
@@ -73,11 +73,12 @@ We refer the interested reader to the rigourous [proof](/assets/pdf/perceptron_c
 ## More About PLA
 * Pro: simple to implement, fast, works in any dimension.
 * Con: linear separable unknown a priori, halting time unknown which depends on the how "separated" the training data is.
-* If the data set is not linear separable and if we relax the condition to find a line with least mistakes 
+* If the data set is not linear separable and if we relax the condition to find a line which minimize the number of mistakes defined below:
 
 $$ 
 \begin{align}
-\min #\{ y_i \neq sign(\mathbf{w}^T\mathbf{x_i})\}
+ #\{ y_i \neq sign(\mathbf{w}^T\mathbf{x_i})\}
 \end{\align}
 $$
 
+This problem is **NP-hard** to solve, unfortunately.
