@@ -62,7 +62,8 @@ Now that we know what the w is supposed to do (defining a hyperplane the separat
 
 ![perceptron_img](/assets/img/perceptron_algo.png)
 
-Intuitively, the update is illustrated as below:
+Intuitively, we have
 
 ![perceptron_img](/assets/img/PerceptronUpdate.png)
 
+(Left:) The hyperplane defined by $$\mathbf{w}_t$$ misclassifies one red (-1) and one blue (+1) point. (Middle:) The red point x is chosen and used for an update. Because its label is -1 we need to subtract x from $$\mathbf{w}_t$$. (Right:) The udpated hyperplane $$\mathbf{w}_{t+1}$$ = $$\mathbf{w}_t$$ − $$\mathbf{x}$$ separates the two classes and the Perceptron algorithm has converged.
