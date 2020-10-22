@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome!
+title: Train of Thought
 subtitle: When you are tired, take a rest, do not quit!
 use-site-title: true
 ---
