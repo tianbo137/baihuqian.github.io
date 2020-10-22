@@ -15,7 +15,7 @@ Let us consider the following example: we want to learn a Boolean target functio
 
 ![img](/assets/img/5b556fd8bc76d.png)
 
-Therefore， there exist 8 possible candidate hypothesis for $$f$$, which all classify the 5 training data correctly, but on the remaining 3 test data，their performance differ greatly. How do we know which hypothesis to learn, after all it is the hypothesis' performance on the test data that we care. 
+Therefore，there exist 8 possible candidate hypothesis for $$f$$, which all classify the 5 training data correctly, but on the remaining 3 test data，their performance differ greatly. How do we know which hypothesis to learn, after all it is the hypothesis' performance on the test data that we care. 
 
 ## No Free Lunch Theorem
 
@@ -29,6 +29,6 @@ Suppose that $$X_1,...,X_n$$ are independent random variables satisfying that $$
 
 $$
 \begin{align}
-\mathbb{P}(\|X − \mu\∣ \geq t) \leq 2 \text{exp}\big( - \frac{2n^2 t^2}{\sum (b_i - a_i)^2}\big)
+\mathbb{P}(||X − \mu|∣ \geq t) \leq 2 \text{exp}\big( - \frac{2n^2 t^2}{\sum (b_i - a_i)^2}\big)
 \end{align}
 $$
