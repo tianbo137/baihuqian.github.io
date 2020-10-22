@@ -6,16 +6,15 @@ tags:
  - MachineLearning
  - DataScience
 ---
+The perceptron is a  **linear (binary) classifier** (i.e. $$y_i \in \{-1, +1\}$$)
 
-## Assumptions
-* Linear (binary) classification (i.e. $$y_i \in \{-1, +1\}$$)
-* Data is linearly separable
+## Linear Separability Assumption
 
-As you may know, two sets are linearly separable if and only if their convex hull has no intersection. We can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) to check whether this condition is true or not; another approach is to use the linear SVM to see if the corresponding error vanishes.
+For the perceptron classifier to work, we need the data set to be linearly separable. As you may know, two sets are linearly separable if and only if their convex hull has no intersection. We can apply the [convex hull algorithm](https://en.wikipedia.org/wiki/Convex_hull_algorithms) to check whether this condition is true or not; another approach is to use the linear SVM to see if the corresponding error vanishes.
 
 Famous example of a simple non-linearly separable data set, the XOR problem is given by (Minsky 1969): 
 
-![perceptron3](/assets/img/perceptron_img4.png){ width=50% }
+![perceptron3](/assets/img/perceptron_img4.png)
 
 ## Classifier
 We composite the sign function with the linear regression model to get 
@@ -67,3 +66,6 @@ Intuitively, we have
 ![perceptron_img](/assets/img/PerceptronUpdate.png)
 
 (Left:) The hyperplane defined by $$\mathbf{w}_t$$ misclassifies one red (-1) and one blue (+1) point. (Middle:) The red point x is chosen and used for an update. Because its label is -1 we need to subtract x from $$\mathbf{w}_t$$. (Right:) The udpated hyperplane $$\mathbf{w}_{t+1}$$ = $$\mathbf{w}_t$$ − $$\mathbf{x}$$ separates the two classes and the Perceptron algorithm has converged.
+
+## Convergence of the Perceptron Algorithm (when linear separability condition is true)
+For a rigourous proof of the convergence theorem, see (/assets/pdf/perc.converge.pdf)
