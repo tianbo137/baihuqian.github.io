@@ -15,7 +15,7 @@ As you may know, two sets are linearly separable if and only if their convex hul
 
 Famous example of a simple non-linearly separable data set, the XOR problem is given by (Minsky 1969): 
 
-![perceptron3](/assets/img/perceptron_img4.png)
+![perceptron3](/assets/img/perceptron_img4.png){width=50%}
 
 ## Classifier
 We composite the sign function with the linear regression model to get 
