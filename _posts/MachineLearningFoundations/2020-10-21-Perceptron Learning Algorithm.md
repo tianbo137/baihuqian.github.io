@@ -68,4 +68,4 @@ Intuitively, we have
 (Left:) The hyperplane defined by $$\mathbf{w}_t$$ misclassifies one red (-1) and one blue (+1) point. (Middle:) The red point x is chosen and used for an update. Because its label is -1 we need to subtract x from $$\mathbf{w}_t$$. (Right:) The udpated hyperplane $$\mathbf{w}_{t+1}$$ = $$\mathbf{w}_t$$ − $$\mathbf{x}$$ separates the two classes and the Perceptron algorithm has converged.
 
 ## Convergence of the Perceptron Algorithm (when linear separability condition is true)
-For a rigourous proof of the convergence theorem, see (/assets/pdf/perc.converge.pdf)
+A rigourous [proof](/assets/pdf/perc.converge.pdf) of the convergence theorem is given by Michael Collins, and we refer the interested reader for more details.
