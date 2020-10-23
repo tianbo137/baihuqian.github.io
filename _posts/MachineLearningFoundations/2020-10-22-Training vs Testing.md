@@ -11,4 +11,4 @@ tags:
 
 In general, the procedure we following in machine learning, especially in supervised learning, is demonstrated in the following flow chart:
 
-![flow](/assets/img/learning flow.png) 
+![flow](/assets/img/learning_flow.png) 
