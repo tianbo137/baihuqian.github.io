@@ -67,6 +67,8 @@ Intuitively, we have
 
 ## Convergence Theroem of the Perceptron Algorithm 
 
+For any finite set of linearly separable labeled examples, the perceptron learning algorithm will halt after a finite number of iterations. In other words, after a finite number of iterations, the algorithm yields a vector $$\mathbb{w}$$ that classifies perfectly all the examples.
+
 We refer the interested reader to the rigourous [proof](/assets/pdf/perceptron_convergence_theorem.pdf) of the convergence theorem.
 
 ## More About Perceptron Learning Algorithm
