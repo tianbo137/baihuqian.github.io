@@ -9,4 +9,4 @@ tags:
 
 ## 
 
-![flow](/assets/img/learning flow.png)
+![flow](assets/img/learning flow.png)
