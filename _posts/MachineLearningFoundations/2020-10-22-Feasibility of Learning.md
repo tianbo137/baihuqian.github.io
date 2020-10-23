@@ -27,15 +27,15 @@ The key observation here is that, we will want our observations be **random**, w
 
 ### Hoeffding’s inequality:
 
-Suppose that $$X_1,...,X_n$$ are independent bounded random variables satisfying that $$a_i \leq X_i \leq b_i$$ and $$\mathbb{E}[X_i] = \mu$$. Then for any $$\epsilon >0$$,
+Suppose that $$X_1,...,X_n$$ are random independent identically distributed random variables satisfying that $$0 \leq X_i \leq 1$$ and $$\mathbb{E}[X] = \mu$$. Then for any $$\epsilon >0$$,
 
 $$
 \begin{align}
-\mathbb{P}(\lVert X − \mu \rVert \geq \epsilon) \leq 2 \text{exp}\big( - \frac{2n^2 \epsilon^2}{\sum (b_i - a_i)^2}\big)
+\mathbb{P}(\lVert \frac{1}{n} \sum X_i − \mu \rVert \geq \epsilon) \leq 2 \text{exp}\big( - \frac{2n^2 \epsilon^2}{\sum (b_i - a_i)^2}\big)
 \end{align}
 $$
 
-Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. In the special case of $X_i$ obeys the binormial distribution with sample mean $$\nu$$, the above inequality specialize to
+Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. When applied to the important special case of identically distributed Bernoulli random variables  $$x_i$$ with sample mean $$\nu$$, the above inequality specialize to
 
 $$
 \begin{align}
