@@ -7,6 +7,6 @@ tags:
  - DataScience
 ---
 
-## 
+## Statistical Learning FLow
 
 ![flow](/assets/img/learning flow.png)
