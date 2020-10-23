@@ -35,7 +35,7 @@ $$
 \end{align}
 $$
 
-Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. When applied to the important special case of identically distributed Bernoulli random variables  $$x_i$$ with sample mean $$\nu$$, the above inequality specialize to
+Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. When applied to the important special case of identically distributed Bernoulli random variables  $$X_i$$ with sample mean $$\nu$$, the above inequality specialize to
 
 $$
 \begin{align}
