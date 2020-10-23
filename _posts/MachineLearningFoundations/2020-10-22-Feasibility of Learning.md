@@ -31,7 +31,7 @@ Suppose that $$X_1,...,X_n$$ are random independent identically distributed rand
 
 $$
 \begin{align}
-\mathbb{P}(\lVert \frac{1}{n} \sum X_i − \mu \rVert \geq \epsilon) \leq 2 \text{exp}\big( - \frac{2n^2 \epsilon^2}{\sum (b_i - a_i)^2}\big)
+\mathbb{P}(\lVert \frac{1}{n} \sum X_i − \mu \rVert \geq \epsilon) \leq 2 \text{exp}\big( - {2n \epsilon^2}\big)
 \end{align}
 $$
 
