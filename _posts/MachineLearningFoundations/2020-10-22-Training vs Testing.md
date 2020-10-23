@@ -7,8 +7,10 @@ tags:
  - DataScience
 ---
 
-## Statistical Learning FLow
+Because of NFL (No Free Lunch) Theorem, it seems that machine learning is doomed to fail. With the introduction of statistical knowledge, we learned that when the random sample size is large enough and the number of hypothesis is reasonably small, then machine learning is viable. In this part, we will rigorously disucss the core problem of when can a machine learn.
 
-In general, the procedure we following in machine learning, especially in supervised learning, is demonstrated in the following flow chart:
+## Preview and Recap
+
+Let us look at the following flow chart of supervised learning:
 
 ![flow](/assets/img/learning_flow.png) 
