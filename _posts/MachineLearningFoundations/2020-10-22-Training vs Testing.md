@@ -9,4 +9,4 @@ tags:
 
 ## Statistical Learning FLow
 
-![img](/assets/img/learning flow.png) 
+![flow](/assets/img/learning flow.png) 
