@@ -93,7 +93,7 @@ which says that as the sample size n grows, it becomes exponentially unlikely th
 
 ### Relation to Learning Theory 
 
-Let $$g$$ be a hypothesis approximating our target $$f$$, and denote by 
+Let $$g$$ be a hypothesis approximating our target $$f$$, and we will denote the error rate within the sample, called the in-sample error, by 
 
 $$
 \begin{align}
@@ -101,7 +101,7 @@ E_{in}(g) & = (\text{fraction of}\  \mathcal{D}\  \text{where}\  f\  \text{and}\
  & = \frac{1}{n} \sum \lVert f(x_i) \neq g(x_i) \rVert
 \end{align}$$ 
 
-where $$\lVert \text{statement} \rVert = 1$$ if the statement is true, and $$= 0$$ if the statement is false.
+where $$\lVert \text{statement} \rVert = 1$$ if the statement is true, and $$= 0$$ if the statement is false. In the same way, we define the out-of-sample error
 
 and $$E_{out}(g)$$ denote the error made by $$g$$ for the training data and test data respectively. What Hoeffding theorem is saying is that we can **almost surely approximately** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile. The remaining question is **if we can make $$E_{in}(g)$$ small**, which will be answered by the various learning algorithms to be introduced.
 
