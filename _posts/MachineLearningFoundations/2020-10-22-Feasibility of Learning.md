@@ -49,7 +49,7 @@ $$
 \end{align}
 $$
 
-Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event.
+where $$\mathbb{P}(\cdot)$$ denotes the probability of an event.
 
 The intuition for this result is very simple. We have a bunch of variables $$Z_i$$. We know that
 when we average a bunch of them up, we should usually get something close to the expected
@@ -61,6 +61,18 @@ mean or variance. In a way, this is great, since we can calculate it just from n
 price we pay for this generality is that some distributions will converge to their means much faster than Hoeffding is capable of knowing.
 
 ![img](/assets/img/Screen Shot 2020-10-23 at 10.35.36 PM.png)
+
+Another form of Hoeffding’s inequality of the following.
+
+Let $$\delta = 2 \text{exp}(-2n\epsilon^2)$$ and suppose we choose 
+
+$$
+\begin{align}
+n \geq \frac{1}{2\epsilon^2} \text{log}\frac{2}{\delta}
+\end{\align}
+$$
+
+Then, with probability at least $$1-\delta$$, the difference between the empirical mean $$ \frac{1}{n} \sum Z_i $$ and the true mean $$\mathbb{E}[Z]$$ is at most $$\epsilon$$.
 
 When applied to the important special case of identically distributed Bernoulli random variables $$X_i$$ with sample mean $$\nu$$, the above inequality specialize to
 
