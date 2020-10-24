@@ -55,7 +55,7 @@ The intuition for this result is very simple. We have a bunch of variables $$Z_i
 when we average a bunch of them up, we should usually get something close to the expected
 value. Hoeffding quantifies “usually” and “close” for us.
 
-The following examples compare Hoeffding’s inequality to the true probability of deviating from the mean by more than for binomial distributed variables, with $$E[Z] = P$$. For $$P = 1/2$$ the bound is not bad. However, for $$P = 1/10$$ it is not good at all. What is happening is that
+The following examples compare Hoeffding’s inequality to the true probability of deviating from the mean by more than for binomial distributed variables, with $$E[Z] = \mu $$. For $$\mu = 1/2$$ the bound is not bad. However, for $$\mu = 1/10$$ it is not good at all. What is happening is that
 Hoeffding’s inequality does not make use of any properties of the distribution, such as its
 mean or variance. In a way, this is great, since we can calculate it just from n and $$\epsilon$$. The
 price we pay for this generality is that some distributions will converge to their means much faster than Hoeffding is capable of knowing.
