@@ -26,13 +26,13 @@ Therefore，there exist 8 possible candidate hypothesis for $$f$$, which all cla
 
 ## No Free Lunch Theorem
 
+
 The NFLT states that under the following conditions:
 
 * The search space the optimiser iterates through will be finite;
 * The space of possible cost values will also be finite;
 
-any one algorithm that searches for an optimal cost or fitness solution is not universally superior to any other algorithm.
-
+any one algorithm that searches for an optimal cost or fitness solution is not universally superior to any other algorithm. 
 
 
 ## Probability to Rescue
@@ -49,7 +49,18 @@ $$
 \end{align}
 $$
 
-Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event. When applied to the important special case of identically distributed Bernoulli random variables  $$X_i$$ with sample mean $$\nu$$, the above inequality specialize to
+Here, $$\mathbb{P}(\cdot)$$ denotes the probability of an event.
+
+The intuition for this result is very simple. We have a bunch of variables $$Z_i$$. We know that
+when we average a bunch of them up, we should usually get something close to the expected
+value. Hoeffding quantifies “usually” and “close” for us.
+
+The following examples compare Hoeffding’s inequality to the true probability of deviating from the mean by more than for binomial distributed variables, with $$E[Z] = P$$. For $$P = 1/2$$ the bound is not bad. However, for $$P = 1/10$$ it is not good at all. What is happening is that
+Hoeffding’s inequality does not make use of any properties of the distribution, such as its
+mean or variance. In a way, this is great, since we can calculate it just from n and $$\epsilon$$. The
+price we pay for this generality is that some distributions will converge to their means much faster than Hoeffding is capable of knowing.
+
+When applied to the important special case of identically distributed Bernoulli random variables $$X_i$$ with sample mean $$\nu$$, the above inequality specialize to
 
 $$
 \begin{align}
