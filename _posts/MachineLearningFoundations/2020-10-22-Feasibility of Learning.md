@@ -106,7 +106,7 @@ where $$\lVert \text{statement} \rVert = 1$$ if the statement is true, and $$= 0
 
 $$
 \begin{align}
-E_{out}(g)  = \mathbb{P}\[f(X_i \neq g(X_i))\]
+E_{out}(g)  = \mathbb{P}[f(X_i \neq g(X_i))]
 \end{align}
 $$ 
 
