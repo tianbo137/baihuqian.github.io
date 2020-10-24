@@ -69,7 +69,7 @@ Let $$\delta = 2 \text{exp}(-2n\epsilon^2)$$ and suppose we choose
 $$
 \begin{align}
 n \geq \frac{1}{2\epsilon^2} \text{log}\frac{2}{\delta}
-\end{\align}
+\end{align}
 $$
 
 Then, with probability at least $$1-\delta$$, the difference between the empirical mean $$ \frac{1}{n} \sum Z_i $$ and the true mean $$\mathbb{E}[Z]$$ is at most $$\epsilon$$.
