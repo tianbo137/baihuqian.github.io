@@ -60,6 +60,8 @@ Hoeffding’s inequality does not make use of any properties of the distribution
 mean or variance. In a way, this is great, since we can calculate it just from n and $$\epsilon$$. The
 price we pay for this generality is that some distributions will converge to their means much faster than Hoeffding is capable of knowing.
 
+![img](/assets/img/Screen Shot 2020-10-23 at 10.35.36 PM.png)
+
 When applied to the important special case of identically distributed Bernoulli random variables $$X_i$$ with sample mean $$\nu$$, the above inequality specialize to
 
 $$
