@@ -48,6 +48,7 @@ m_{\mathcal{H}}(n) \leq 2^{n}
 \end{align}
 $$
 
+**Example**
 ![img](/assets/img/Screen Shot 2020-10-24 at 12.26.39 PM.png)
 
 If no data set of size k can be shattered by $$\mathcal{H}$$, then k is said
