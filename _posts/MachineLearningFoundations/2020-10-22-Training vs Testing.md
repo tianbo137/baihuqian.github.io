@@ -62,4 +62,5 @@ m_{\mathcal{H}}(k) \leq \sum_{i=0}^{k-1} {n \choose i}
 \end{align}
 $$
 
-for all N. The RHS is polynomial in N of degree k-1
+for all N. The RHS is polynomial in N of degree k-1. The implication of this theorem is that if $$\mathcal{H}$$ has a break point, we have
+what we want to ensure good generalization; a polynomial bound on $$m_{\mathcal{H}}(k)$$, since then the discrepency betweent the in-sample and out-sample error diminishes as sample size increase.
