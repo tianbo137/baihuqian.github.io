@@ -106,11 +106,14 @@ where $$\lVert \text{statement} \rVert = 1$$ if the statement is true, and $$= 0
 
 $$
 \begin{align}
-E_{out}(g)  = \mathbb{P}[f(X_i \neq g(X_i))]
+E_{out}(g)  = \mathbb{P}[f(X_i) \neq g(X_i)]
 \end{align}
 $$ 
 
-and $$E_{out}(g)$$ denote the error made by $$g$$ for the training data and test data respectively. What Hoeffding theorem is saying is that we can **almost surely approximately** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile. The remaining question is **if we can make $$E_{in}(g)$$ small**, which will be answered by the various learning algorithms to be introduced.
+What Hoeffding theorem is saying is that we can **probably almost correctly** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile.
+
+
+The remaining question is **if we can make $$E_{in}(g)$$ small**, which will be answered by the various learning algorithms to be introduced.
 
 ### Complexity of the space of all hypothesis $$\mathcal{H}$$
 
