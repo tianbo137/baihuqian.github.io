@@ -110,7 +110,24 @@ E_{out}(g)  = \mathbb{P}[f(X_i) \neq g(X_i)]
 \end{align}
 $$ 
 
-What Hoeffding theorem is saying is that we can **probably almost correctly** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile.
+What Hoeffding theorem is saying is that we can **probably almost correctly** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile. You may be tempted to do the following to approximate $$f$$:
+* Input the set of classifiers (hypothesis) $$\mathcal{H}$$;
+* Draw $$n \geq \frac{1}{2 \epsilon^2}\text{log}\frac{2}{\delta}$$ samples;
+* Output $$g^* = \min_{g \in \mathcal{H}} E_{in}(g)$$.
+
+We might be tempted to conclude that since $$E_{in}(g)$$ is close to $$E_{out}(g)$$ with high probability for all g, the output $$g^*$$ should be close to the best class. Trouble is, it isn’t true! One way of looking at the previous results is this: for any given classifier, there aren’t too many “bad” training sets for which the empirical risk is far off from the true risk. However, different classifiers can have different bad training sets. If we have 100 classifiers, and each of them is inaccurate on 1% of training sets, it is possible that we always have at least one such that
+the empirical risk and true risk are far off. (On the other hand, it is possible that the bad training sets do overlap. In practice, this does seem to happen to some degree, and is probably partially responsible for the fact that
+learning algorithms generalize better in practice than these type of bounds can prove.) The way to combat this is to make the risk of each particular classifier being off really small. If we have 100 classifiers, and want only a 1% chance of failure, we limit the probability of failure of each to 0.01%. Or, if we want an overall probability of failure of $$\delta$$, we make
+sure that each individual classifer can only fail with probability $$\delta/\lvert \mathcal{H} \rvert$$. Plugging this into our
+previous result, we have
+
+With probability $$1 - \delta$$, for all $$g \in \mathcal{H}$$ simultaneously
+
+$$
+\begin{align}
+\lvert E_{in}(g) - E_{out}(g)\rvert \leq \sqrt{\frac{1}{2n} \text{log} \frac{2\lvert \mathcal{H} \rvert}{\delta}}
+\end{align}
+$$
 
 
 The remaining question is **if we can make $$E_{in}(g)$$ small**, which will be answered by the various learning algorithms to be introduced.
