@@ -146,4 +146,12 @@ more flexibility in finding some g that fits the data well, leading to small $$E
 
 ## VC-dimension and Infinite Hypothesis Space
 
+With probability $$1-\delta$$, for all $$g \in \mathcal{H}$$ simultaneously,
 
+$$
+\begin{align}
+E_{in}(g) \leq E_{out}(g) + \sqrt{\frac{VC[\mathcal{H}]}{n}(\text{log}\frac{n}{VC[\mathcal{H}]} + \text{log}2e) + \frac{1}{n}\text{log}\frac{4}{\delta}}
+\end{align}
+$$
+
+Where $$VC[\mathcal{H}]$$ is the VC-dimension of the set $$\mathcal{H}$$, which is defined as the size of the largest data set $$\mathcal{D}$$ that can be shattered by $$\mathcal{H}$$.
