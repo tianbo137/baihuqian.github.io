@@ -156,6 +156,19 @@ $$
 
 Where $$VC[\mathcal{H}]$$ is the VC-dimension of the set $$\mathcal{H}$$, which is defined as the size of the largest data set $$\mathcal{D}$$ that can be shattered by $$\mathcal{H}$$.
 
+## Error and Noise
+
+Learning is not expected to replicate the target function perfectly. The final hypothesis g is only an approximation of f. To quantify how well g approximates
+f, we need to define an error measure that quantifies how far we are from the target.
+
+The choice of an error measure affects the outcome of the learning process. Different error measures may lead to different choices of the final hypothesis,
+even if the target and the data are the same, since the value of a particular error measure may be small while the value of another error measure in the same
+situation is large. Therefore, which error measure we use has consequences for what we learn.
+
+One can think of a noisy target as a deterministic target plus added noise. If y is real-valued for example, one can take the expected value of y given x to
+be the deterministic $$f(x)$$, and consider $$y - f(x)$$ as pure noise that is added to f .
+
+
 ## Reference
 Introduction to Statistical Learning Theory, Bousquet, Boucheron, Lugosi, Advanced
 Lectures on Machine Learning Lecture Notes in Artificial Intelligence, 2004
