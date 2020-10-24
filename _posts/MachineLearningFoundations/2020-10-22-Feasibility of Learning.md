@@ -7,19 +7,30 @@ tags:
  - DataScience
 ---
 
-Given a training dataset $$\mathcal{D}$$ out of a larger population data and suppose our goal is to learn a "noisy" Boolean target function $$f$$ on the popultation from the training data. So we
-know the value of $$f$$ on all the points in $$\mathcal{D}$$. Does the data set $$\mathcal{D}$$ tell us anything outside of $$\mathcal{D}$$ that we didn't know
-before? If the answer is yes, then we have learned something. If the answer is no, we can conclude that learning is not feasible.
+Given a training dataset $$\mathcal{D}$$ out of a larger population data and suppose our goal is to learn a "noisy" target function $$f$$ on the popultation from the training data. In supervised learning, we usually take the following strategy:
+* Pick some class of functions $$f(x)$$ (decision trees, linear functions, etc.)
+* Pick some loss function, measuring how we would like $$f(x)$$ to perform on test data.
+* Fit $$f(x)$$ so that it has a good average loss on training data. (Perhaps using cross-
+validation to regularize.)
 
-Let us consider the following example: we want to learn a Boolean target function over a three-dimensional input space $$X = \{0, 1\}^3$$，while the training dataset $$\mathcal{D}$$ contains 5 out of all 8 possible outputs. 
+What is missing here is a proof that the performance on training data is indicative of performance on test data. Does the data set $$\mathcal{D}$$ tell us anything outside of $$\mathcal{D}$$ that we didn't know
+before? We intuitively know that the more “powerful” the class of functions is, the more training data we will tend to need, but we have not made the definition of “powerful”, nor this relationship precise.
+
+In this note, we will study two of the most basic ways of characterizing the “power” of a set of functions.
+
+Let us consider the following example: suppose we want to learn a Boolean target function over a three-dimensional input space $$X = \{0, 1\}^3$$，while the training dataset $$\mathcal{D}$$ contains 5 out of all 8 possible outputs. 
 
 ![img](/assets/img/5b556fd8bc76d.png)
 
-Therefore，there exist 8 possible candidate hypothesis for $$f$$, which all classify the 5 training data correctly, but on the remaining 3 test data，their performance differ greatly. How do we know which hypothesis to learn, after all it is the hypothesis' performance on the test data that we care. 
+Therefore，there exist 8 possible candidate hypothesis for $$f$$, which all classify the 5 training data correctly, but on the remaining 3 test data，their performance differ greatly. How do we know which hypothesis to learn given one of them is the target function, and remember that it is the hypothesis' performance on the test data that we care. 
 
 ## No Free Lunch Theorem
 
-The average performance of any pair of algorithms across all possible problems is identical.
+Any one algorithm that searches for an optimal cost or fitness solution is not universally superior to any other algorithm.
+
+There are a few conditionals of NFLT:
+* The search space the optimiser iterates through will be finite.
+* The space of possible cost values will also be finite.
 
 ## Probability to Rescue
 
@@ -52,3 +63,6 @@ question, we need to keep m in check. However, if we want
 an affirmative answer to the second question, we stand a better chance if $$\mathcal{H}$$
 is more complex, since g has to come from $$\mathcal{H}$$. So, a more complex $$\mathcal{H}$$ gives us
 more flexibility in finding some g that fits the data well, leading to small $$E_{in}(g)$$. This tradeoff in the complexity of $$\mathcal{H}$$ is a major theme in learning theory.
+
+
+## Relation to Learning Theory
