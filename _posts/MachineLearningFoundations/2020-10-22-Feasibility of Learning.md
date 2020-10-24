@@ -26,11 +26,12 @@ Therefore，there exist 8 possible candidate hypothesis for $$f$$, which all cla
 
 ## No Free Lunch Theorem
 
-Any one algorithm that searches for an optimal cost or fitness solution is not universally superior to any other algorithm.
+Under the following conditions:
+* The search space the optimiser iterates through will be finite;
+* The space of possible cost values will also be finite;
+any one algorithm that searches for an optimal cost or fitness solution is not universally superior to any other algorithm.
 
-There are a few conditionals of NFLT:
-* The search space the optimiser iterates through will be finite.
-* The space of possible cost values will also be finite.
+
 
 ## Probability to Rescue
 
