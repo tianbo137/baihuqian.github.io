@@ -97,7 +97,7 @@ Let $$g$$ be a hypothesis approximating our target $$f$$, and denote by
 
 $$
 \begin{align}
-E_{in}(g) & = (\text{fraction of} \mathcal{D} \text{where} f \text{and} g \text{disagree}) \\
+E_{in}(g) & = (\text{fraction of}\  \mathcal{D}\  \text{where}\  f\  \text{and}\  g \ \text{disagree}) \\
  & = \frac{1}{n} \sum \lvert f(x_i) \neq g(x_i) \rvert
 \end{align}$$ 
 
