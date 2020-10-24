@@ -89,7 +89,19 @@ $$
 \end{align}
 $$
 
-which says that as the sample size n grows, it becomes exponentially unlikely that v will deviate from $$\mu$$ by more than our 'tolerance' $$\epsilon$$. The proof of the Hoeffding theorem can be found [here](/assets/pdf/hoeffding.pdf), and it provides us with the following understanding of the feasibility of learning: let $$g$$ be a hypothesis approximating our target $$f$$, and let $$ E_{in}(g) $$ and $$E_{out}(g)$$ denote the error made by $$g$$ for the training data and test data respectively. What Hoeffding theorem is saying is that we can **almost surely approximately** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile. The remaining question is **if we can make $$E_{in}(g)$$ small**, which will be answered by the various learning algorithms to be introduced.
+which says that as the sample size n grows, it becomes exponentially unlikely that v will deviate from $$\mu$$ by more than our 'tolerance' $$\epsilon$$. The proof of the Hoeffding theorem can be found [here](/assets/pdf/hoeffding.pdf).
+
+### Relation to Learning Theory 
+
+Let $$g$$ be a hypothesis approximating our target $$f$$, and denote by 
+
+$$
+\begin{align}
+E_{in}(g) & = (\text{fraction of} \mathcal{D} \text{where} f \text{and} g \text{disagree}) \\
+ & = \frac{1}{n} \sum \lvert f(x_i) \neq g(x_i) \rvert
+\end{align}$$ 
+
+and $$E_{out}(g)$$ denote the error made by $$g$$ for the training data and test data respectively. What Hoeffding theorem is saying is that we can **almost surely approximately** make $$ E_{in}(g) $$ sufficiently close to $$E_{out}(g)$$, which makes learning feasibile. The remaining question is **if we can make $$E_{in}(g)$$ small**, which will be answered by the various learning algorithms to be introduced.
 
 ### Complexity of the space of all hypothesis $$\mathcal{H}$$
 
