@@ -74,6 +74,13 @@ $$
 
 Then, with probability at least $$1-\delta$$, the difference between the empirical mean $$ \frac{1}{n} \sum Z_i $$ and the true mean $$\mathbb{E}[Z]$$ is at most $$\epsilon$$.
 
+To understand this second form, we can think of setting two “slop” param-
+eters:
+* The “accuracy” $$\epsilon$$ says how far we are willing to allow the empirical mean to be from the true mean.
+* The “confidence” $$\delta$$ says what probability we are willing to allow of “failure”. (That is, a deviation larger than $$\epsilon$$)
+
+If we choose these two parameters, the second form of the above inequality quantifies how much it will “cost” in terms of samples.
+
 When applied to the important special case of identically distributed Bernoulli random variables $$X_i$$ with sample mean $$\nu$$, the above inequality specialize to
 
 $$
