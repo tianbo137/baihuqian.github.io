@@ -155,3 +155,7 @@ E_{in}(g) \leq E_{out}(g) + \sqrt{\frac{VC[\mathcal{H}]}{n}(\text{log}\frac{n}{V
 $$
 
 Where $$VC[\mathcal{H}]$$ is the VC-dimension of the set $$\mathcal{H}$$, which is defined as the size of the largest data set $$\mathcal{D}$$ that can be shattered by $$\mathcal{H}$$.
+
+## Reference
+Introduction to Statistical Learning Theory, Bousquet, Boucheron, Lugosi, Advanced
+Lectures on Machine Learning Lecture Notes in Artificial Intelligence, 2004
