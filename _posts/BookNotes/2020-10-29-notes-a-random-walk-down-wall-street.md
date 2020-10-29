@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Personal Note to <<A Random Walk Down Wall Street>>"
+title: "Personal Note to "A Random Walk Down Wall Street""
 date: '2020-10-29'
 tags:
  - Finance
