@@ -8,7 +8,7 @@ tags:
 
 ## 漫步華爾街
 
-今天要閱讀的是一本影響我很深的投資經典─《漫步華爾街》超越股市漲跌的成功投資策略，本書原名：《A Random Walk Down Wall Street》The Time Tested Strategy for Successful Investing。
+今天要閱讀的是一本投資經典─《漫步華爾街》超越股市漲跌的成功投資策略，本書原名：《A Random Walk Down Wall Street》The Time Tested Strategy for Successful Investing。
 
 全書重點是預測市場的漲跌、高低不容易，做好資產配置、選擇指數化投資，你也可以是理財高手，這些方法不保證能一夕致富，但應當可以讓你穩健致富。
 
