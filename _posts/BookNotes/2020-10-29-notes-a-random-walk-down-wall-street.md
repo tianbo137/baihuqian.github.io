@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes: A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing"
+title: "Personal Note to 'A Random Walk Down Wall Street'"
 date: '2020-10-29'
 tags:
  - Finance
