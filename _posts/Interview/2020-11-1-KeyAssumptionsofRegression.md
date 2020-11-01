@@ -56,22 +56,22 @@ A more serious problem associated with heteroscedasticity is the fact that the s
 
 # Assumptions of Binary Logistic Regression
 
-### APPROPRIATE OUTCOME STRUCTURE
+### 1. Appropriate Outcome Structure
 
 To begin, one of the main assumptions of logistic regression is the appropriate structure of the outcome variable.  Binary  logistic  regression  requires  the  dependent  variable  to  be  binary  and  ordinal  logistic  regression requires the dependent variable to be ordinal.
 
-### OBSERVATION INDEPENDENCE
+### 2. Observation Independence
 
 Logistic  regression  requires  the  observations  to  be  independent  of  each  other.    In  other  words,  the  observations should not come from repeated measurements or matched data.
 
-### THE ABSENCE OF MULTICOLLINEARITY
+### 3. The Absence Of Multicoliearity
 
 Logistic regression requires there to be little or no multicollinearity among the independent variables.  This means that the independent variables should not be too highly correlated with each other.
 
-### LINEARITY OF INDEPENDENT VARIABLES AND LOG ODDS
+### 4. Linearity Of Independent Variables And Log Odds
 
 Logistic regression assumes linearity of independent variables and log odds. Although this analysis does not require the dependent and independent variables to be related linearly, it requires that the independent variables are linearly related to the log odds.
 
-### A LARGE SAMPLE SIZE
+### 5. A Large Sample Size
 
 Finally, logistic regression typically requires a large sample size.  A general guideline is that you need at minimum of 10 cases with the least frequent outcome for each independent variable in your model. For example, if you have 5 independent variables and the expected probability of your least frequent outcome is .10, then you would need a minimum sample size of 500 (10*5 / .10).
