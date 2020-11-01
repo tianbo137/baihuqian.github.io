@@ -11,9 +11,7 @@ tags:
 
 **Linear regression** is an analysis that assesses whether one or more predictor variables (X) explain the dependent variable (Y):  
 
-$$ \begin{align} Y = \beta_0 + \beta_1 X + \epsilon \end{align} $$ 
-
-where $$\epsilon$$ is the noise.
+$$ \begin{align} Y = \beta_0 + \beta_1 X  \end{align} $$ 
 
 The regression has five key assumptions:
 
@@ -55,6 +53,8 @@ The problem that heteroscedasticity presents for regression models is simple.  R
 A more serious problem associated with heteroscedasticity is the fact that the standard errors are biased.  Because the standard error is central to conducting significance tests and calculating confidence intervals, biased standard errors lead to incorrect conclusions about the significance of the regression coefficients.
 
 # Assumptions of Binary Logistic Regression
+
+$$ \begin{align} \text{log}\big( \frac{P(Y =1)}{1 - P(Y =1)} \big) = \beta_0 + \beta_1 X $$ 
 
 ### 1. Appropriate Outcome Structure
 
