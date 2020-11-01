@@ -39,11 +39,11 @@ tags:
 
 第一章 介绍随机漫步、磐石理论以及空中阁楼理论，第二章介绍疯狂的群众，第三章介绍60到90年代的股票价格，第四章介绍2000年代初期的网路泡沫。我们先看作者一开始提出的几个问题：
 
-    何谓「随机漫步」（Random Walk）？
+    何为「随机漫步」（Random Walk）？
 
-    何谓「磐石理论」（Firm-foundation theory）？
+    何为「磐石理论」（Firm-foundation theory）？
 
-    何谓「空中阁楼」（Castle-in-the-air theory）理论？
+    何为「空中阁楼」（Castle-in-the-air theory）理论？
 
 透过这三种理论，读者可以熟悉各种资产的定价模式，以及彼此间的关联。
 
