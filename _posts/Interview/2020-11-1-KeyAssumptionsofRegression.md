@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Reading Note: A Random Walk Down Wall Street"
-date: '2020-10-29'
+title: "Key Assumptions of Linear and Logistic Regression"
+date: '2020-11-1'
 tags:
- - Finance
+ - Interview
+ - Statitics
 ---
 
 # 漫步華爾街
