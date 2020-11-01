@@ -55,7 +55,7 @@ A more serious problem associated with heteroscedasticity is the fact that the s
 # Assumptions of Binary Logistic Regression
 Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
 
-$$ \begin{align} \text{log}\big( \frac{P(Y =1)}{1 - P(Y =1)} \big) = \beta_0 + \beta_1 X $$ 
+$$ \begin{align} \text{log}\big( \frac{P(Y =1)}{1 - P(Y =1)} \big) = \beta_0 + \beta_1 X  \end{align} $$ 
 
 Logistic regression requires the following assumptions to be valid:
 
