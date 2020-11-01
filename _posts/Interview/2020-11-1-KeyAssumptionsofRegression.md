@@ -9,7 +9,11 @@ tags:
 
 # Assumptions of Linear Regression
 
-**Linear regression** is an analysis that assesses whether one or more predictor variables (X) explain the dependent variable (Y).  The regression has five key assumptions:
+**Linear regression** is an analysis that assesses whether one or more predictor variables (X) explain the dependent variable (Y).  
+
+$$ \begin{align} Y = \beta_0 + \beta_1 X + \epsilon \end{align} $$ where $$\epsilon$$ is the noise.
+
+The regression has five key assumptions:
 
     Linear relationship
     Multivariate normality
