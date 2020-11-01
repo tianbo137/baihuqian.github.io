@@ -17,22 +17,15 @@ where $$\epsilon$$ is the noise.
 
 The regression has five key assumptions:
 
-    * Linear relationship
-    * Multivariate normality
-    * No or little multicollinearity
-    * No auto-correlation
-    * Homoscedasticity
-
-
-### 1.  
+### 1.  Linear relationship
 Linear regression needs the relationship between the independent and dependent variables to be linear.  It is also important to check for outliers since linear regression is sensitive to outlier effects.  The linearity assumption can best be tested with scatter plots.
 
 
-### 2.
+### 2. Multivariate normality
 
 The linear regression analysis requires all variables to be multivariate normal.  This assumption can best be checked with a histogram.  Normality can be checked with a Chi-square goodness of fit test.  When the data is not normally distributed a non-linear transformation (e.g., log-transformation) might fix this issue.
 
-### 3. 
+### 3. No or little multicollinearity
 
 Linear regression assumes that there is little or no multicollinearity in the data.  Multicollinearity occurs when the independent variables are too highly correlated with each other.
 
@@ -49,10 +42,10 @@ Variance Inflation Factor (VIF) – the variance inflation factor of the linear 
 
 If multicollinearity is found in the data, centering the data (that is deducting the mean of the variable from each score) might help to solve the problem.  However, the simplest way to address the problem is to remove independent variables with high VIF values.
 
-### 4. 
+### 4. No auto-correlation
 Linear regression analysis requires that there is little or no autocorrelation in the data.  Autocorrelation occurs when the residuals are not independent from each other.  In other words when the value of y(x+1) is not independent from the value of y(x). For instance, this typically occurs in stock prices, where the price is not independent from the previous price.
 
-### 5. 
+### 5. Homoscedasticity
 The last assumption of the linear regression analysis is homoscedasticity.  The scatter plot is good way to check whether the data are homoscedastic. Homoscedasticity describes a situation in which the error term (that is, the “noise” or random disturbance in the relationship between the independent variables and the dependent variable) is the same across all values of the independent variables.  Heteroscedasticity (the violation of homoscedasticity) is present when the size of the error term differs across values of an independent variable.  The impact of violating the assumption of homoscedasticity is a matter of degree, increasing as heteroscedasticity increases.
 
 A simple bivariate example can help to illustrate heteroscedasticity: Imagine we have data on family income and spending on luxury items.  Using bivariate regression, we use family income to predict luxury spending.  As expected, there is a strong, positive association between income and spending.  Upon examining the residuals we detect a problem – the residuals are very small for low values of family income (almost all families with low incomes don’t spend much on luxury items) while there is great variation in the size of the residuals for wealthier families (some families spend a great deal on luxury items while some are more moderate in their luxury spending).  This situation represents heteroscedasticity because the size of the error varies across values of the independent variable.  Examining a scatterplot of the residuals against the predicted values of the dependent variable would show a classic cone-shaped pattern of heteroscedasticity.
