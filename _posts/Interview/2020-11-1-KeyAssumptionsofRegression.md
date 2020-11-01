@@ -13,7 +13,7 @@ tags:
 
 $$ \begin{align} Y = \beta_0 + \beta_1 X  \end{align} $$ 
 
-The regression has five key assumptions:
+whose validity involves five key assumptions:
 
 ### 1.  Linear relationship
 Linear regression needs the relationship between the independent and dependent variables to be linear.  It is also important to check for outliers since linear regression is sensitive to outlier effects.  The linearity assumption can best be tested with scatter plots.
@@ -53,8 +53,11 @@ The problem that heteroscedasticity presents for regression models is simple.  R
 A more serious problem associated with heteroscedasticity is the fact that the standard errors are biased.  Because the standard error is central to conducting significance tests and calculating confidence intervals, biased standard errors lead to incorrect conclusions about the significance of the regression coefficients.
 
 # Assumptions of Binary Logistic Regression
+Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
 
 $$ \begin{align} \text{log}\big( \frac{P(Y =1)}{1 - P(Y =1)} \big) = \beta_0 + \beta_1 X $$ 
+
+Logistic regression requires the following assumptions to be valid:
 
 ### 1. Appropriate Outcome Structure
 
