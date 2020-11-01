@@ -17,11 +17,12 @@ where $$\epsilon$$ is the noise.
 
 The regression has five key assumptions:
 
-    Linear relationship
-    Multivariate normality
-    No or little multicollinearity
-    No auto-correlation
-    Homoscedasticity
+    * Linear relationship
+    * Multivariate normality
+    * No or little multicollinearity
+    * No auto-correlation
+    * Homoscedasticity
+
 
 1.  Linear regression needs the relationship between the independent and dependent variables to be linear.  It is also important to check for outliers since linear regression is sensitive to outlier effects.  The linearity assumption can best be tested with scatter plots.
 
