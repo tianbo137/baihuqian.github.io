@@ -23,7 +23,7 @@ Linear regression needs the relationship between the independent and dependent v
 
 ### 2. Multivariate normality
 
-The linear regression analysis requires all variables to be multivariate normal.  This assumption can best be checked with a histogram.  Normality can be checked with a Chi-square goodness of fit test.  When the data is not normally distributed a non-linear transformation (e.g., log-transformation) might fix this issue.
+The linear regression analysis requires all variables to be multivariate normal.  This assumption can best be checked with a histogram.  Normality can be checked with a Chi-square goodness of fit test. Also, we can look at skewness and kurtosis: skewness should be within the range ±2. kurtosis values should be within range of ±7. When the data is not normally distributed a non-linear transformation (e.g., log-transformation) might fix this issue.
 
 ### 3. No or little multicollinearity
 
@@ -45,7 +45,7 @@ If multicollinearity is found in the data, centering the data (that is deducting
 ### 4. No auto-correlation
 Linear regression analysis requires that there is little or no autocorrelation in the data.  Autocorrelation occurs when the residuals are not independent from each other.  In other words when the value of y(x+1) is not independent from the value of y(x). For instance, this typically occurs in stock prices, where the price is not independent from the previous price.
 
-### 5. Homogeneity of Variance
+### 5. Homoscedasticity
 The last assumption of the linear regression analysis is homoscedasticity.  The scatter plot is good way to check whether the data are homoscedastic. Homoscedasticity describes a situation in which the error term (that is, the “noise” or random disturbance in the relationship between the independent variables and the dependent variable) is the same across all values of the independent variables.  Heteroscedasticity (the violation of homoscedasticity) is present when the size of the error term differs across values of an independent variable.  The impact of violating the assumption of homoscedasticity is a matter of degree, increasing as heteroscedasticity increases.
 
 A simple bivariate example can help to illustrate heteroscedasticity: Imagine we have data on family income and spending on luxury items.  Using bivariate regression, we use family income to predict luxury spending.  As expected, there is a strong, positive association between income and spending.  Upon examining the residuals we detect a problem – the residuals are very small for low values of family income (almost all families with low incomes don’t spend much on luxury items) while there is great variation in the size of the residuals for wealthier families (some families spend a great deal on luxury items while some are more moderate in their luxury spending).  This situation represents heteroscedasticity because the size of the error varies across values of the independent variable.  Examining a scatterplot of the residuals against the predicted values of the dependent variable would show a classic cone-shaped pattern of heteroscedasticity.
@@ -55,3 +55,23 @@ The problem that heteroscedasticity presents for regression models is simple.  R
 A more serious problem associated with heteroscedasticity is the fact that the standard errors are biased.  Because the standard error is central to conducting significance tests and calculating confidence intervals, biased standard errors lead to incorrect conclusions about the significance of the regression coefficients.
 
 # Assumptions of Binary Logistic Regression
+
+### APPROPRIATE OUTCOME STRUCTURE
+
+To begin, one of the main assumptions of logistic regression is the appropriate structure of the outcome variable.  Binary  logistic  regression  requires  the  dependent  variable  to  be  binary  and  ordinal  logistic  regression requires the dependent variable to be ordinal.
+
+### OBSERVATION INDEPENDENCE
+
+Logistic  regression  requires  the  observations  to  be  independent  of  each  other.    In  other  words,  the  observations should not come from repeated measurements or matched data.
+
+### THE ABSENCE OF MULTICOLLINEARITY
+
+Logistic regression requires there to be little or no multicollinearity among the independent variables.  This means that the independent variables should not be too highly correlated with each other.
+
+### LINEARITY OF INDEPENDENT VARIABLES AND LOG ODDS
+
+Logistic regression assumes linearity of independent variables and log odds. Although this analysis does not require the dependent and independent variables to be related linearly, it requires that the independent variables are linearly related to the log odds.
+
+### A LARGE SAMPLE SIZE
+
+Finally, logistic regression typically requires a large sample size.  A general guideline is that you need at minimum of 10 cases with the least frequent outcome for each independent variable in your model. For example, if you have 5 independent variables and the expected probability of your least frequent outcome is .10, then you would need a minimum sample size of 500 (10*5 / .10).
