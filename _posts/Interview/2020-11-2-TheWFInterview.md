@@ -8,7 +8,7 @@ tags:
 # 软技能问题汇总: 
 
 
-## Self-awareness:
+### Self-awareness:
 
 * [Tell Me About Yourself.](https://medium.com/@CIcracked/tell-me-about-yourself-8342747ab9fb)
 自我介绍。我看过一个YouTube的视频，关于how to introduce yourself。她介绍说，这个自我介绍一定要像坐电梯的一样：你是谁--> 你能做什么-->你为什么qualify for this job。一步一步升华。
@@ -17,7 +17,7 @@ tags:
 
 * Introduce Education Experience
 
-## Career Plan: 对于这个行业做research
+### Career Plan: 对于这个行业做research
 
 * Why Do You Want to Work in X?
 
@@ -31,7 +31,7 @@ tags:
 * Why Don't You Want To Do X Anymore?
 * Where Would You Want to be Five Years From Now?
 
-## Resume Question
+### Resume Question
 
 * Tell Me About X Where X is a Random Phrase From Your Resume.
 
@@ -39,7 +39,7 @@ tags:
 
 * When you realize your research has been fully investigated by other people, what will you do?
 
-## Interpernsonal Relation 
+### Interpernsonal Relation 
 
 * How Would You Deal with Difficuilt People?
 * Tell Me About an Occasion on Which You Demonstrated Leadership Skills?
@@ -52,7 +52,7 @@ tags:
 * Tell us about a time when you had to make a difficult decision at work without consulting management.  
 * 讲述一次你比别人要先发现问题的经历
 
-## Working Skill: 这个interview就是考察你解决实际问题的思路和能力（并不是technical的细节，而是从high-level讲述怎么解决实际问题）
+### Working Skill: 这个interview就是考察你解决实际问题的思路和能力（并不是technical的细节，而是从high-level讲述怎么解决实际问题）
 
 * Are You Comfortable Working with Deadlines?
 * What Qualitites Do You Offer, Apart from Being Smart?
@@ -73,7 +73,7 @@ tags:
 
 # Technical Questions
 
-## Probability and Statistics
+### Probability and Statistics
 
 What is random number? 如果你有一堆random numbers， 你会如何说服你的客户它们是 random 的。
 
@@ -171,7 +171,7 @@ moving average
 学过什么统计，数学计算的课程
 一个abstract expectation求导，问打算怎么做，有几种办法，怎么优化，误差怎么算。
 
-## Machine Learning
+### Machine Learning
 
 基础的machine learning的知识，类似它的优缺点
 
@@ -312,7 +312,7 @@ how to handle missing value: 1. assumptions? 2. techniques
 Overfitting issue: 1. how to identify? 2. how to solve
 
 
-## Programming
+### Programming
 
 写code 题目， 有一个list， 想得到unique pairs of elements in list
 
