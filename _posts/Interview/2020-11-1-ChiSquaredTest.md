@@ -76,18 +76,21 @@ was checked for 50 weeks: 32weeks with no accident, 12 weeks with
 Poission distribution. 
 
 Solution. The null hypothesis is given by 
+
 $$
 \begin{align}
 H_0: P(X=x)=\lambda^x e^{-\lambda}/x!
 \end{align}
 $$ 
-for all $$
-x=0,1,2,\cdots$$. Since $$\lambda$$ unknown, we estimate it with MLE.
+
+for all $$ x=0,1,2,\cdots$$. Since $$\lambda$$ unknown, we estimate it with MLE.
+
 $$
 \begin{align}
 \hat \lambda = \bar x =(12+2\times6)/50=0.48.
 \end{align}
 $$
+
 Define three categories by $$X=0$$ , $$X=1$$, and $$X \geq 2$$. The expected probabilities are estimated to give $$\hat p_1 =0.619, \hat p_2=0.297, \hat p_3 =
 1-\hat p_1 -\hat p_2=0.084$$. Then the test statistic $$\chi^2 \sim
 \chi^2_1$$ (the additional degree of freedom is lost due to the
