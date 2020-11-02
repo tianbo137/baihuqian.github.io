@@ -7,40 +7,40 @@ tags:
 ---
 # 软技能问题汇总 
 
-问题出处于 
+问题出处于以下资料
 
-1. Quant Job Interview Questions and Answers
-2. Cracking the Coding Interview
-3. Build a Career in Data Science
-4. 
+1. [Quant Job Interview Questions and Answers](https://www.amazon.com/Quant-Interview-Questions-Answers-Second/dp/0987122827)
+2. [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+3. [Build a Career in Data Science](https://www.amazon.com/Build-Career-Science-Jacqueline-Nolis/dp/1617296244)
 
-## 0. Tell Me About Yourself.
 
-## 1. Why Do You Want to Work in Banking?
+### 0. Tell Me About Yourself.
 
-## 2. Tell Me About X Where X is a Random Phrase From Your Resume.
+### 1. Why Do You Want to Work in Banking?
 
-## 3. Why Don't You Want To Do X Anymore?
+### 2. Tell Me About X Where X is a Random Phrase From Your Resume.
 
-## 4. How Would You Deal with Difficuilt People?
+### 3. Why Don't You Want To Do X Anymore?
 
-## 5. What Are Your Weaknesses?
+### 4. How Would You Deal with Difficuilt People?
 
-## 6. Are You Comfortable Working with Deadlines?
+### 5. What Are Your Weaknesses?
 
-## 7. Where Would You Want to be Five Years From Now?
+### 6. Are You Comfortable Working with Deadlines?
 
-## 8. Explain Your Thesis.
+### 7. Where Would You Want to be Five Years From Now?
 
-## 9. Do You Own Any Shares?
+### 8. Explain Your Thesis.
 
-## 10. What Qualitites Do You Offer, Apart from Being Smart?
+### 9. Do You Own Any Shares?
 
-## 11. Tell Me About an Occasion on Which You Demonstrated Leadership Skills?
+### 10. What Qualitites Do You Offer, Apart from Being Smart?
 
-## 12. Do You Prefer Working With Others or Solo?
+### 11. Tell Me About an Occasion on Which You Demonstrated Leadership Skills?
 
-## 13. What Kind of Technologies Are You Familiar With?
+### 12. Do You Prefer Working With Others or Solo?
 
-## 14. What Makes You Interested in this Position?
+### 13. What Kind of Technologies Are You Familiar With?
+
+### 14. What Makes You Interested in this Position?
 
