@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Key Assumptions of Linear and Logistic Regression"
+title: "Chi-square Test and application in Machine Learning"
 date: '2020-11-1'
 tags:
  - Interview
