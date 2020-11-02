@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "MLF 4: Training vs Testing"
+title: "MLF 4: Training vs Testing: the Theory of Generalization"
 date: "2020-10-22"
 tags:
  - MachineLearning
