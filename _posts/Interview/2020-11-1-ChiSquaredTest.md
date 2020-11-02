@@ -104,3 +104,6 @@ be 0.25. We do not reject $$H_0$$.
 
 * A very large chi square test statistic means that the data does not fit very well. In other words, there isn’t a relationship.
 
+## 5. Application
+
+For an interesting application of Chi-squared test, please see my [jupyter notebook](https://github.com/tianbo137/benford_law_check)
