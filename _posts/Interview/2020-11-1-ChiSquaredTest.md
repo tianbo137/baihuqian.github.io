@@ -100,6 +100,7 @@ be 0.25. We do not reject $$H_0$$.
 
 ## 4. Conclusion
 
-    A very small chi square test statistic means that your observed data fits your expected data extremely well. In other words, there is a relationship.
-    A very large chi square test statistic means that the data does not fit very well. In other words, there isn’t a relationship.
+* A very small chi square test statistic means that your observed data fits your expected data extremely well. In other words, there is a relationship.
+
+* A very large chi square test statistic means that the data does not fit very well. In other words, there isn’t a relationship.
 
