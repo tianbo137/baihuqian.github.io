@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chi-square Test and application in Machine Learning"
+title: "Chi-squared Test and application in Machine Learning"
 date: '2020-11-1'
 tags:
  - Interview
