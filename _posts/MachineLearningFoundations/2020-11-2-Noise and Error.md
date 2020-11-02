@@ -1,7 +1,7 @@
 ---
 layout: "post"
-title: "MLF 4: Training vs Testing"
-date: "2020-10-22"
+title: "MLF 5: Noise and Error"
+date: "2020-11-2"
 tags:
  - MachineLearning
  - DataScience
