@@ -106,4 +106,4 @@ be 0.25. We do not reject $$H_0$$.
 
 ## 5. Application
 
-For an interesting application of Chi-squared test, please see my [jupyter notebook](https://github.com/tianbo137/benford_law_check)
+For an interesting application of Chi-squared test in relation to Benford's law and  checking authenticity of any numerical data like presidential votes and company revenue, please see my [jupyter notebook](https://github.com/tianbo137/benford_law_check).
