@@ -17,11 +17,15 @@ tags:
 第一阶段（2周）： 统计概率面试训练 + LendingClub风控实战
 
 在本阶段，基于Lending Club的数据集，系统全面的梳理、掌握统计概率在数据科学领域的必考面试考点，
-包括：Bayes Theorem、Distributions、Hypothesis Testing和Linear Regression等。此外，将以Lending Club风控部门分析师的角色，从公司数据集中提取有效Feature，利用Python进行建模并对用户有可能产生的违约行为进行分析，帮助公司控制风险。
+包括：Bayes Theorem、Distributions、Hypothesis Testing和Linear Regression等。
+此外，以Lending Club风控部门分析师的角色，从公司数据集中提取有效Feature，利用Python进行建模并对用户有可能产生的违约行为进行分析，帮助公司控制风险。
 
 第二阶段（3周）： 机器学习进阶 + Uber乘客行为预测 + Yelp推荐系统
 
-本阶段中，实践、掌握和调试各类机器学习算法，并解决监督式和非监督式学习的各类问题。在此基础上，将完成2大工业项目：1. 基于Uber乘客出行数据，使用分类模型对乘客行为进行预测，形成有效决策参考。2. 深入理解推荐系统（Recommender System）的工作原理和价值，熟练掌握自然语言处理（NLP）的基本流程，并使用Yelp数据集搭建和完善推荐系统。
+本阶段中，实践、掌握和调试各类机器学习算法，并解决监督式和非监督式学习的各类问题。
+在此基础上，将完成2大工业项目：
+1. 基于Uber乘客出行数据，使用分类模型对乘客行为进行预测，形成有效决策参考。
+2. 深入理解推荐系统（Recommender System）的工作原理和价值，熟练掌握自然语言处理（NLP）的基本流程，并使用Yelp数据集搭建和完善推荐系统。
 
 第三阶段（2周）： SQL/Case Study综合强化提升 + Kaggle竞赛项目
 
