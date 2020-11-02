@@ -77,53 +77,76 @@ tags:
 
 What is random number? 如果你有一堆random numbers， 你会如何说服你的客户它们是 random 的。
 
-统计学知识，线性代数，基础data cleansing，Monte Carlo Simulation。
-probability计算（binomial distribution 和相应的hypothesis testing, 
+统计学知识，线性代数，，Monte Carlo Simulation
+
+probability计算（binomial distribution 和相应的hypothesis testing
+
 weighted least square
-什么是spurious correlation,
-linear regression，怎么检验它的assumption；false positive；true negative是什么等等。
+
+什么是spurious correlation
+
+linear regression，怎么检验它的assumption；false positive；true negative是什么等等
+
 survival analysis
+
 通过bayes rule 求 conditional prob, 就是常规的bayes 题目
 
 
-问你如果有normal distribution 怎么simulate chi-square, 还有两个其他的distribution给忘记了
+问你如果有normal distribution 怎么simulate chi-square, 还有两个其他的distribution
+
 有normal cdf，怎么simulate uniform(a,b)
-how to check multicollinearity（可以用correlation matrix, 还可以用VIF这个参数）
-7.what is the assumption behind imputation of missing values with mean or median? other imputation methods ? why is it inappropriate to delete missing values.
+
+how to check multicollinearity（可以用correlation matrix, 还可以用VIF这个参数
 
 
-Tech：
-Prob: 6面的骰子，出现1-6的次数-baidu ????
+what is the assumption behind imputation of missing values with mean or median? other imputation methods ? why is it inappropriate to delete missing values.
+
+6面的骰子，出现1-6的次数
 
 Stochastic: B1,B2 是brownian Motion， 求E[(B1-B2) at t]
 
-MC simulation
-X～ Distribution(\sigma)
-Y = F(X)
-求 dE(Y)/d(\sigma)
-1. 如何用Monte Carlo MarKov Chain （MCMC）产生多元随机变量。注意，不一定是多元正太分布，但是每一维的conditional distribution 是已知的。 提示：gibbs sampling
-9. What is the difference between mathmatics models and statistical models?
+MC simulation： X～ Distribution(\sigma)， Y = F(X)， 求 dE(Y)/d(\sigma)
 
-10）a fair 6-sided dice, what's the expected number of toss to see all 6 distinct numbers?
-11）Brownian Motion（martingle）基本概念题
-2. 你学过什么数学，统计学，计量模型
-3. MLE和LSE
-4. Monte Carlo模型
-5. 从统计学，ML，经济学，从你的专业角度解释什么是模型.
+如何用Monte Carlo MarKov Chain （MCMC）产生多元随机变量。注意，不一定是多元正太分布，但是每一维的conditional distribution 是已知的。 提示：gibbs sampling
+
+What is the difference between mathmatics models and statistical models?
+
+
+a fair 6-sided dice, what's the expected number of toss to see all 6 distinct numbers?
+
+Brownian Motion（martingle）基本概念题
+
+你学过什么数学，统计学，计量模型
+
+MLE和LSE
+
+Monte Carlo模型
+
+从统计学，ML，经济学，从你的专业角度解释什么是模型.
+
 Optimization
-Monte Carlo
-6. statistical model, missing value
-7. How to detect outlier?
-3、有什么算法可以求平方根？（牛顿法）
-4. 微积分：1）举例一些二阶导 为0的函数，2）一个函数boundry condition  is known, 这个函数唯一吗？
-1、linear regression: 1）写出linear regression 的coefficient estimate beta的矩阵表达式， 2）linear regression有什么assumption。
-2、概率题：1）Toss a coin, how many time it is expected to take before you toss two consecutive heads? 2）然后follow up最后推到generalize到n consecutive heads的表达式。
-计算过程：x = 1/2(1+x) + 1/4(2+x) + (1/4 )* 2，generalization：x = (1/2)(x+1) + (1/4)(x+2) + ... + (1/(2^k))(x+k) + .. + (1/(2^N))(x+N) + (1/(2^N))(N)， x = 2^(N+1)-2
-一些基础数据分析建模的问题，例如：how to detect and deal with outliers? 
-一个应用题，有一些实际背景，最后转化成的统计问题就是，给一个uniform generator, 如何得到 exponential random variable。
-9. 一个应用题，和geometric distribution 相关，具体不太记得了。
 
-2， 根据我讲的项目，他们提了很多关于建模和模型验证的问题，基本上是每个 interviewer 轮着问， 记得的问题：
+statistical model, missing value
+
+How to detect outlier?
+
+有什么算法可以求平方根？（牛顿法）
+
+微积分：1）举例一些二阶导 为0的函数，2）一个函数boundry condition  is known, 这个函数唯一吗？
+
+linear regression: 1）写出linear regression 的coefficient estimate beta的矩阵表达式， 2）linear regression有什么assumption。
+
+概率题：1）Toss a coin, how many time it is expected to take before you toss two consecutive heads? 2）然后follow up最后推到generalize到n consecutive heads的表达式。
+计算过程：x = 1/2(1+x) + 1/4(2+x) + (1/4 )* 2，generalization：x = (1/2)(x+1) + (1/4)(x+2) + ... + (1/(2^k))(x+k) + .. + (1/(2^N))(x+N) + (1/(2^N))(N)， x = 2^(N+1)-2
+
+一些基础数据分析建模的问题，例如：how to detect and deal with outliers? 
+
+一个应用题，有一些实际背景，最后转化成的统计问题就是，给一个uniform generator, 如何得到 exponential random variable。
+
+一个应用题，和geometric distribution 相关，具体不太记得了。
+
+
+根据我讲的项目，他们提了很多关于建模和模型验证的问题，基本上是每个 interviewer 轮着问， 记得的问题：
 第一题是抛一个硬币，问连续出现2个H停止，期望要抛多少次。第二问接着第一问连续出现n个H停止，问期望。之后问linear regression的normal equation推倒，L1 penalty是啥，然后问了几个ode公式是否存在解，是否线性，然后问求integration的方法，
 
 geometric distribution: 一道关于几何分布的应用题，关于客户第几个月会第一次违约，然后问这个模型现实中有哪些不合理的情况
@@ -152,6 +175,8 @@ moving average
 
 基础的machine learning的知识，类似它的优缺点
 
+基础data cleansing
+
 briefly introduce the procedure of data analyzing (research project, internship project 都行)
 
 你课外有没有什么项目？ （我说了我做的kaggle，整个machine learning 的流程。 之前和microsoft的一些比较牛的engineer 一起做kaggle, 学了很多挺实用的，ensemble, meta feature这些东西）也知道了一些machine learning pipeline, 一边画一边讲给interviewer 听，感觉他挺满意的。
@@ -171,8 +196,6 @@ case study, 这个case 我答得不好，乱说一通，可能题木理解错了
 工作中有没有哪次感觉问题很容易解决，后来发现比想的复杂？怎么解决的？讲了一个自己项目中遇到的情况，这种情况很常见
 
 我讲的项目是关于NLP 的，所以他们问了一些建模的细节问题
-
-问了一个SQL 相关的问题，我不懂，回答说组里有2个 data analyst，他们负责提供数据
 
 现在公司这个组有些什么人，我跟他们工作上是什么相处的
 
@@ -317,4 +340,6 @@ One SQL-type question: 给定一个三列的表, 本质上需要完成一个先g
 算一个很大的流数据的平均值， 告诉面试官自己的想法就可以了
 
 介绍自己的编程能力
+
+问了一个SQL 相关的问题，我不懂，回答说组里有2个 data analyst，他们负责提供数据
 
