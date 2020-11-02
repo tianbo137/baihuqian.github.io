@@ -52,17 +52,23 @@ contradicts the previous belief.
 Solution.
 The null hypothesis would be
  
- $$ \begin{align} H_0:p_A=0.34, p_B=0.15,p_{AB}=0.23,p_O=0.28. \end{align}$$
+ $$
+ \begin{align} 
+ H_0:p_A=0.34, p_B=0.15,p_{AB}=0.23,p_O=0.28. 
+ \end{align}
+ $$
+ 
+ We compute the Chi-squared test statistic as follows:
+ 
 $$ 
 \begin{align}
-> chi <-(12-34)^2/34+(56-15)^2/15+
+\chi^2 = (12-34)^2/34+(56-15)^2/15+
 (2-23)^2/23+(30-28)^2/28
-[1] 145.6187
-> 1-pchisq(chi,3)
-[1] 0
+= 145.6187
 \end{align}
 $$
-Since the $$P$$-value is almost 0, we reject $$H_0$$.
+
+Since the corresponding $$P$$-value is almost 0, we reject $$H_0$$.
 
 Example 2. The number of accidents $$X$$ per week at an intersection
 was checked for 50 weeks: 32weeks with no accident, 12 weeks with
