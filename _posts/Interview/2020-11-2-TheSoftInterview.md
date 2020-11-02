@@ -5,14 +5,7 @@ date: '2020-11-2'
 tags:
  - Interview
 ---
-# 软技能问题汇总 
-
-问题出处于以下资料
-
-1. [Quant Job Interview Questions and Answers](https://www.amazon.com/Quant-Interview-Questions-Answers-Second/dp/0987122827)
-2. [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
-3. [Build a Career in Data Science](https://www.amazon.com/Build-Career-Science-Jacqueline-Nolis/dp/1617296244)
-4. Various Online Sources
+# 软技能问题汇总: 
 
 ### 0. Tell Me About Yourself.
 
@@ -43,4 +36,11 @@ tags:
 ### 13. What Kind of Technologies Are You Familiar With?
 
 ### 14. What Makes You Interested in this Position?
+
+# 问题出处于以下资料
+
+1. [Quant Job Interview Questions and Answers](https://www.amazon.com/Quant-Interview-Questions-Answers-Second/dp/0987122827)
+2. [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+3. [Build a Career in Data Science](https://www.amazon.com/Build-Career-Science-Jacqueline-Nolis/dp/1617296244)
+4. Various Online Sources
 
