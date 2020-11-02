@@ -91,7 +91,7 @@ $$
 \end{align}
 $$
 
-Define three categories by $$X=0$$ , $$X=1$$, and $$X \geq 2$$. The expected probabilities are estimated to give $$\hat p_1 =0.619, \hat p_2=0.297, \hat p_3 =
+Define three categories by $$X=0$$ , $$X=1$$, and $$X \geq 2$$. The expected probabilities are estimated to give $$\hat p_1 =0.619$$, $$\hat p_2=0.297$$, and $$ \hat p_3 =
 1-\hat p_1 -\hat p_2=0.084$$. Then the test statistic $$\chi^2 \sim
 \chi^2_1$$ (the additional degree of freedom is lost due to the
 estimation of $$\lambda$$). $$\chi^2=1.354$$ and the $$P$$-value would
