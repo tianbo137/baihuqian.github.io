@@ -9,7 +9,7 @@ tags:
 
 Because of the NFL (No Free Lunch) Theorem, it seems that machine learning is doomed to fail. With the introduction of statistical tools, we learned that when the random sample size is large enough and the number of hypothesis is reasonably small, then machine learning is viable. In this part, we will rigorously disucss the core problem of when can a machine learn.
 
-## Preview and Recap
+## Training versus Testing
 
 Let us look at the following flow chart of supervised learning:
 
@@ -18,7 +18,7 @@ Let us look at the following flow chart of supervised learning:
 In the above "statistical" learning flow, we need that the training dataset and the test dataset all obey the same population distribution, this is the fundamental reason why machine can learn. Also, we require that the training dataset is relatively large and the number of hypothesis is reasonably bounded. Therefore, according to the Hoeffding inequality, we can show that our algorithm can be generalized well. With good training, we can therefore get our final model $$ g \approx f$$,  the latter being our noisy target.
 
 
-## Generalization Error
+### Generalization Error
 We have discussed how the value of $$E_{in}$$ does not always generalize to a similar value of $$E_{out}$$. Generalization is a key
 issue in learning. One can define the generalization error as the discrepancy between $$E_{in}$$ and $$E_{out}$$· By the Hoeffding Inequality as discussed before, we can characterize the generalization error with a probabilistic bound,
 
@@ -30,7 +30,7 @@ $$
 
 for any $$\epsilon > 0$$. Here the factor $$\mathcal{H}$$ is due to simple set theoretic consideration and its explanation can be found on p41 in [Learning from data](https://www.amazon.com/Learning-Data-Yaser-S-Abu-Mostafa/dp/1600490069).
 
-## Effective Number of Hypotheses
+### Effective Number of Hypotheses
 
 We now introduce the growth function, the quantity that will formalize the effective number of hypotheses and will use it to replace $$\lvert \mathcal{H}\rvert$$ in the above inquality. It is a combinatorial quantity that captures how different the hypotheses in $$\mathcal{H}$$ are and its definition is given by
 
@@ -64,3 +64,7 @@ $$
 
 for all N. The RHS is polynomial in N of degree k-1. The implication of this theorem is that if $$\mathcal{H}$$ has a break point, we have
 what we want to ensure good generalization; a polynomial bound on $$m_{\mathcal{H}}(k)$$, since then the discrepency betweent the in-sample and out-sample error diminishes as sample size increase.
+
+## Theory of Generalization
+
+## The VC Dimension
