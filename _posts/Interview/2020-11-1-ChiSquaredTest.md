@@ -22,3 +22,4 @@ $$ \begin{align}  Q\ \sim \ \chi ^{2}(k) \end{align} $$
 
 The chi-squared distribution has one parameter: a positive integer k that specifies the number of degrees of freedom (the number of $$Z_i$$'s). 
 
+![chi_square](/assets/img/Chi-square_pdf.svg.png)
