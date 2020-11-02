@@ -54,13 +54,13 @@ The null hypothesis would be
  
  $$ \begin{align} H_0:p_A=0.34, p_B=0.15,p_{AB}=0.23,p_O=0.28. \end{align}$$
 $$ 
-\begin{verbatim}
+\begin{align}
 > chi <-(12-34)^2/34+(56-15)^2/15+
 (2-23)^2/23+(30-28)^2/28
 [1] 145.6187
 > 1-pchisq(chi,3)
 [1] 0
-\end{verbatim}
+\end{align}
 $$
 Since the $$P$$-value is almost 0, we reject $$H_0$$.
 
