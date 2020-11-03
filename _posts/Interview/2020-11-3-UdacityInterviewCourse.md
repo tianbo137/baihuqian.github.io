@@ -94,7 +94,17 @@ Evaluation
 
 ### Machine Learning Interview Practice
 
-Rainy Day: Bayes' Rule
+Example Rainy Day: 
+  	        
+	Bayes' Theorem: The probability of an event $$A$$ conditional on another event $$B$$ is generally different from the probability of $$B$$ conditional on $$A$$. However, there is a definite relationship between the two,
+	
+	$$ 
+	\begin{align}
+	P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)}
+	\end{align}
+	$$
+ 
+
 
 
 
