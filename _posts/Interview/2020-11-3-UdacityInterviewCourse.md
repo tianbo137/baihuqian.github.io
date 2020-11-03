@@ -94,9 +94,7 @@ Evaluation
 
 ### Machine Learning Interview Practice
 
-Example Rainy Day: 
-  	        
-	Bayes' Theorem: The probability of an event $$A$$ conditional on another event $$B$$ is generally different from the probability of $$B$$ conditional on $$A$$. However, there is a definite relationship between the two,
+Example 1. Bayes' Theorem: The probability of an event $$A$$ conditional on another event $$B$$ is generally different from the probability of $$B$$ conditional on $$A$$. However, there is a definite relationship between the two,
 	
 $$ 
 	\begin{align}
