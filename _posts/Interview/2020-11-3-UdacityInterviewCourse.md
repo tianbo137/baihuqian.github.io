@@ -59,4 +59,34 @@ Write SQL query to find the three vehicles with the most horse power that have l
 |      Make     |  Char         |
 |      Model    |  Char         |
 |     No of Cyl    |  Int       |
-|     Horse Power   |  Int       |
+|     Horse Power   |  Int      |
+
+### 8. Coding
+Given unsorted array of integers, find the indices of the largest of the difference
+
+``` python
+
+def find_max_diff(A):
+"""
+A: an unsorted array of integers
+return the indices of the location that maximize the difference
+"""
+    diff = float('-inf')
+	   n = len(A)
+	   max_so_far = A[n - 1]
+
+	# traverse the list from right and keep track the maximum element
+	   for i in reversed(range(n - 1)):
+
+	# update max if current element is greater than the maximum element
+		      if A[i] > max_so_far:
+			         max_so_far = A[i]
+
+		# if the current element is less than the maximum element,
+		# then update the difference if required
+		      else:
+			         diff = max(diff, max_so_far - A[i])
+
+	# return difference
+     return diff
+```
