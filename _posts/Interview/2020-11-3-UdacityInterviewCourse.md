@@ -53,13 +53,13 @@ One player with p = 2/3 of making a free throw with two chances or another one w
     
 ### 7. SQL Question
 Write SQL query to find the three vehicles with the most horse power that have least 6 cylnders.
-|              Cars  |           |
-| ------------- | ------------- |
-|      Id       |  Int          |
-|      Make     |  Char         |
-|      Model    |  Char         |
-|     No of Cyl    |  Int       |
-|     Horse Power   |  Int      |
+|      Cars     |         |
+| ----------    | --------|
+|      Id       |  Int    |
+|      Make     |  Char   |
+|      Model    |  Char   |
+|   No of Cyl   |  Int    |
+|  Horse Power  |  Int    |
 
 ### 8. Coding
 Given unsorted array of integers, find the indices of the largest of the difference
