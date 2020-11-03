@@ -52,8 +52,11 @@ One player with p = 2/3 of making a free throw with two chances or another one w
     Clear Explaination matters!
     
 ### 7. SQL Question
-|              Card  |           |
+Write SQL query to find the three vehicles with the most horse power that have least 6 cylnders.
+|              Cars  |           |
 | ------------- | ------------- |
 |      Id       |  Int          |
 |      Make     |  Char         |
 |      Model    |  Char         |
+|     No of Cyl    |  Int       |
+|     Horse Power   |  Int       |
