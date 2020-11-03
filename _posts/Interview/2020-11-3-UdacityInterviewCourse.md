@@ -79,5 +79,5 @@ return the indices of the location that maximize the difference
 	    max_so_far = A[i] 
         else:
 	    diff = max(diff, max_so_far - A[i])
-     return diff
+    return diff
 ```
