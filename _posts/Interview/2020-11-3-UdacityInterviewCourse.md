@@ -22,7 +22,7 @@ Data science combines several disciplines, including statistics, data analysis, 
 
 * The Data Science Generalist: The company you’re interviewing for cares about data but probably isn’t a data company. Some of the most important ‘data generalist’ skills are familiarity with tools designed for *big data* and experience with messy, ‘real-life’ datasets.
 
-### Interviews are Conversations
+### 3. Interviews are Conversations
 
 Interview is not exam, ask questions to communicate with the interviewer. 
 
@@ -30,7 +30,7 @@ Be confident.
 
 Approach unknown questions as something you want to solve.
 
-### STAR Method
+### 4. STAR Method
 
 Example: Describe an example when you had a disagreement with your coworker/manager. Why did it happen? How did you handle it?
 
@@ -41,3 +41,19 @@ Example: Describe an example when you had a disagreement with your coworker/mana
 *Action*: "We decided to look into the details of each problem together. Clearly the deadline was important, but our users’ data might be at risk if we didn’t patch our system. I was tasked to research the security threat more closely, and I realized it did not apply to our users because none of them used that browser which had the vulnerability. So we could just post a message on our website about the browser."
 
 *Result*: "We were able to release our product feature on time even while taking the time to work together to consider an important issue not everyone agreed with at the time."
+
+### 5. Data Analysis Interview Practice 
+
+*Describe A Project*: this is probably the most important question of the interview where you can examine an interviewee from start to end of a project to see (1). Can they describe the problem clearly; (2). How do they approach to solve the problem; (3). Knowing the tools standard for industry;
+
+### 6. Free Throw Probability
+One player with p = 2/3 of making a free throw with two chances or another one with p = 1/2 with three chances. Who is better?
+
+    Clear Explaination matters!
+    
+### 7. SQL Question
+|              Card             |
+| ------------- | ------------- |
+|      Id       |  Int          |
+|      Make     |  Char         |
+|      Model    |  Char         |
