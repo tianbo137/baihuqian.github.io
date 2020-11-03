@@ -88,9 +88,13 @@ Feature constructon: sender address, ip address, subject line, time + date, body
  
 Feature selection: 
 
+Choice of Algorithms: pros and cons, simple standard, ...
 
+Evaluation
 
+### Machine Learning Interview Practice
 
+Rainy Day: Bayes' Rule
 
 
 
