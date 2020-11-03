@@ -24,11 +24,11 @@ Data science combines several disciplines, including statistics, data analysis, 
 
 ### 3. Interviews are Conversations
 
-Interview is not exam, ask questions to communicate with the interviewer. 
+Interview is not exam, ask questions to communicate and approach unknown questions as something you want to solve.
 
-Be confident.
+    Be confident.
 
-Approach unknown questions as something you want to solve.
+   
 
 ### 4. STAR Method
 
@@ -52,7 +52,7 @@ One player with p = 2/3 of making a free throw with two chances or another one w
     Clear Explaination matters!
     
 ### 7. SQL Question
-|              Card             |
+|              Card  |           |
 | ------------- | ------------- |
 |      Id       |  Int          |
 |      Make     |  Char         |
