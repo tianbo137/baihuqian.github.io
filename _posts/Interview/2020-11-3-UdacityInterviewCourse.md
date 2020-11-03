@@ -81,3 +81,16 @@ return the indices of the location that maximize the difference
 	    diff = max(diff, max_so_far - A[i])
     return diff
 ```
+
+### Design a Spam Classifier
+
+Feature constructon: sender address, ip address, subject line, time + date, body, attachments, recipients, RE/FW
+ 
+Feature selection: 
+
+
+
+
+
+
+
