@@ -4,7 +4,9 @@ title: "Udacity Interview Course"
 date: '2020-11-3'
 tags:
  - Interview
- - Data Science
+ - DataScience
+ - MachineLearning
+ - Leetcode
 ---
 ### 1. What IS Data Science?
 
@@ -174,11 +176,11 @@ Books
 
 Github Repository (Collections of Problems)
 
-    [The Coding Interview](https://github.com/mre/the-coding-interview)
-    HTML5 Boilerplate Interview Questions
+   [The Coding Interview](https://github.com/mre/the-coding-interview)
+   HTML5 Boilerplate Interview Questions
 
 Blog Posts
 
-    [Five Essential Phone Screen Questions](https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+   [Five Essential Phone Screen Questions](https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 
