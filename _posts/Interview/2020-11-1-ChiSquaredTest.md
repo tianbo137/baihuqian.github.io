@@ -4,7 +4,7 @@ title: "Chi-squared Test and Application in Machine Learning"
 date: '2020-11-1'
 tags:
  - Interview
- - Statitics
+ - Statistics
 ---
 
 # Chi-squared Test
