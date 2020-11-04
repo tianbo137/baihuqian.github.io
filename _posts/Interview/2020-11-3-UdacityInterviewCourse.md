@@ -103,6 +103,16 @@ $$
 	$$
  
 
+Example 2. Detect Plagiarism
 
+Example 3. Reduce Data Dimension
+
+Current algorithm process a lot of data related to millions of pictures but performs slow. 
+Consider fourier transform for images, which looks for frequencies of difference color patterns, and can dramatically reduce data size; What is the resulting effect of the transform. Also consider PCA ... What domain or fields any transformation apply?
+
+Example 4. Describe Your ML Project
+Data extraction, challenge, pipeline, Project of interest, Larger ecosystem, passion
+
+Example 5. Explain How SVMs Work
 
 
