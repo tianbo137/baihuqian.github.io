@@ -13,6 +13,8 @@ tags:
 
 To motivate this discussion, we start with a simple example: consider a stock market with 3 possible states: Bull market, Bear market, and Stagnant market, which will be denoted by 0, 1, 2, respectively. It is possible to transition randomly from any state to another per second according to the following scheme, for example, Bull market can change to Stagnant market with a possibilty of 0.025. 
 
+![markov market](/assets/img/Markov 2.png)
+
 The **state space** for this process is given by
 
 $$
