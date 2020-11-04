@@ -11,22 +11,20 @@ tags:
 
 **Markov chains**, also known as discrete-time Markov chain, get its name after the Russian mathematician Andrey Markov, are mathematical systems that hop from one "state" (a situation or set of values) to another. 
 
-To motivate this discussion, we start with a simple example: Consider a **random walk** on the set of integers between  1 and 5, moving randomly through that set, say one move per second, according to the following scheme.  If we are currently at position i, then one time period later we will be at either i-1, i or i+1, 
-according to the outcome of rolling a fair die --- we move to i-1 if the die comes up 1 or 2, stay at i if the die comes up 3 or 4, and move to i+1 in the case of a 5 or 6.  For the special cases of i = 1 and i = 5, we simply move to 2 or 4, respectively.
+To motivate this discussion, we start with a simple example: consider a stock market with 3 possible states: Bull market, Bear market, and Stagnant market, which will be denoted by 0, 1, 2, respectively. It is possible to transition randomly from any state to another per second according to the following scheme, for example, Bull market can change to Stagnant market with a possibilty of 0.025. 
 
 The **state space** for this process is given by
 
 $$
 \begin{align}
-\mathcal{S} = {1, 2, 3, 4, 5}
+\mathcal{S} = {0, 1, 2}
 \end{align}
 $$
 
-Let $X _ t$ represent the position of the particle at time $$t = 0,
-1,2,\ldots$$ which is called the **state** of the process at time $$t$$. For example, if we are currently at 4, for instance, our state is $$X_4$$.
+and we denote by $X_t$ the state of the market at time $$t = 0, 1,2,\ldots$$ which is called the **state** of the process at time $$t$$. 
 
-Let $$p _ {ij}$$ denote the probability of going from position i to position j in one step.  For example, $$p _ {21} = p _ {23} = \frac{1}{3}$$, while $$p _ {24} = 0$$ (we can reach position 4 from position 2 in two steps, but not in one step).  The numbers $$p _ {ij}$$ are called the **one-step transition probabilities** of 
-the process.  Denote by P the **transition matrix** whose entries are the $$p _ {ij}$$.
+Let $$p _ {ij}$$ denote the probability of going from position i to position j in one step.  For example, in the above stock market example, $$p_{21} = $$, while $$p_{24} = 0$$. The numbers $$p_{ij}$$ are called the **one-step transition probabilities** of the process.  Denote by P the **transition matrix** whose entries are the $$p _ {ij}$$, and we have for the stock market example:
+
 
 We are interested in the following questions: 
 
