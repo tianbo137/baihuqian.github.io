@@ -15,14 +15,15 @@ To motivate this discussion, we start with a simple example: Consider a **random
 according to the outcome of rolling a fair die --- we move to i-1 if the die comes up 1 or 2, stay at i if the die comes up 3 or 4, and move to i+1 in the case of a 5 or 6.  For the special cases of i = 1 and i = 5, we simply move to 2 or 4, respectively.
 
 The **state space** for this process is given by
+
 $$
 \begin{align}
 \mathcal{S} = {1, 2, 3, 4, 5}
 \end{align}
 $$
 
-Letting $X _ t$ represent the position of the particle at time t, $$t = 0,
-1,2,\ldots$$ which is called the **state** of the process at time t. For example, if we are currently at 4, for instance, our state is $$X_4$$.
+Let $X _ t$ represent the position of the particle at time $$t = 0,
+1,2,\ldots$$ which is called the **state** of the process at time $$t$$. For example, if we are currently at 4, for instance, our state is $$X_4$$.
 
 Let $$p _ {ij}$$ denote the probability of going from position i to position j in one step.  For example, $$p _ {21} = p _ {23} = \frac{1}{3}$$, while $$p _ {24} = 0$$ (we can reach position 4 from position 2 in two steps, but not in one step).  The numbers $$p _ {ij}$$ are called the **one-step transition probabilities** of 
 the process.  Denote by P the **transition matrix** whose entries are the $$p _ {ij}$$.
