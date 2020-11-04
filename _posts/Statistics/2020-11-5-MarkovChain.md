@@ -11,9 +11,11 @@ tags:
 
 **Markov chains**, also known as discrete-time Markov chain, get its name after the Russian mathematician Andrey Markov, are mathematical systems that hop from one "state" (a situation or set of values) to another. 
 
-To motivate this discussion, we start with a simple example: consider a stock market with 3 possible states: Bull market, Bear market, and Stagnant market, which will be denoted by 0, 1, 2, respectively. It is possible to transition randomly from any state to another per second according to the following scheme, for example, Bull market can change to Stagnant market with a possibilty of 0.025. 
+To motivate this discussion, we start with a simple example: consider a stock market with 3 possible states: Bull market, Bear market, and Stagnant market, which will be denoted by 0, 1, 2, respectively. It is possible to transition randomly from any state to another per second according to the following scheme:
 
-![markov market](/assets/img/Markov 2.png)
+![markovmarket](/assets/img/Markov 2.png)
+
+for example, Bull market can change to Stagnant market with a possibilty of 0.025. 
 
 The **state space** for this process is given by
 
