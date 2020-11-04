@@ -9,25 +9,98 @@ tags:
 
 ## What is Markov Chain?
 
-One of the most commonly used stochastic models is that of a **Markov 
-chain**. To motivate this discussion, we will start with a simple 
-example: Consider a **random walk** on the set of integers between 
-1 and 5, moving randomly through that set, say one move per second, 
-according to the following scheme.  If we are currently at position i, 
-then one time period later we will be at either i-1, i or i+1, 
-according to the outcome of rolling a fair die --- we move to i-1 if 
-the die comes up 1 or 2, stay at i if the die comes up 3 or 4, and 
-move to i+1 in the case of a 5 or 6.  For the special cases of i = 1 
-and i = 5, we simply move to 2 or 4, respectively.
+**Markov chains**, also known as discrete-time Markov chain, get its name after the Russian mathematician Andrey Markov, are mathematical systems that hop from one "state" (a situation or set of values) to another. 
 
-The integers 1 through 5 form the **state space** for this process;
-if we are currently at 4, for instance, we say we are in state 4.
-Letting $X _ t$ represent the position of the particle at time t, $$t = 0,
-1,2,\ldots$$ which is called the **state** of the process at time t.
+To motivate this discussion, we start with a simple example: Consider a **random walk** on the set of integers between  1 and 5, moving randomly through that set, say one move per second, according to the following scheme.  If we are currently at position i, then one time period later we will be at either i-1, i or i+1, 
+according to the outcome of rolling a fair die --- we move to i-1 if the die comes up 1 or 2, stay at i if the die comes up 3 or 4, and move to i+1 in the case of a 5 or 6.  For the special cases of i = 1 and i = 5, we simply move to 2 or 4, respectively.
+
+The integers 1 through 5 form the **state space** for this process; Letting $X _ t$ represent the position of the particle at time t, $$t = 0,
+1,2,\ldots$$ which is called the **state** of the process at time t. For example, if we are currently at 4, for instance, our state is $$X_4$$.
+
+Let $$p _ {ij}$$ denote the probability of going from position i to position j in one step.  For example, $$p _ {21} = p _ {23} = \frac{1}{3}$$, while $$p _ {24} = 0$$ (we can reach position 4 from position 2 in two steps, but not in one step).  The numbers $$p _ {ij}$$ are called the **one-step transition probabilities** of 
+the process.  Denote by P the **transition matrix** whose entries are the $$p _ {ij}$$.
+
 
 ## Markov Property
 
-## The Transition Matrix
+    It only matters where you are, not where you have been.
+    
+The above random walk is a **Markov process**.  The term *Markov* here has meaning similar to that of the term *memoryless* used 
+for the exponential distribution, in that we can "forget the past":
+
+$$
+\begin{align}
+P( X _ {t+1} = s _ {t+1} | X _ t = s _ t , X _ {t-1} = s _ {t-1},
+\ldots , X _ 0 = s _ 0 ) =
+P( X _ {t+1} = s _ {t+1} | X _ t = s _ t )
+\end{align}
+$$ 
+
+Although this equation has a very complex look, it has a very
+simple meaning:  The distribution of our next position, given our
+current position and all our past positions, is dependent only on 
+the current position.  It is clear that the random walk process above 
+does have this property; for instance, if we are now at position 4,
+the probability that our next state will be 3 is 1/3---no matter
+where we were in the past.## Markov Property
+
+  
+In typical applications we are interested in the long-run distribution
+of the process, for example, the long-run proportion of the time that
+we are at position 4.  For each state i, define
+
+\begin{equation}
+{\pi}_i =  \lim_{t \rightarrow \infty} \frac{N_{it}}{t}
+\end{equation} 
+
+where $N_{it}$ is the number of visits the process makes to state i 
+among times 1, 2,..., t.  In most practical cases, this proportion 
+will exist and be independent of our initial position $X_0$.  (There 
+are mathematical conditions under which this is guaranteed to occur, 
+but they will not be stated here.)  
+
+Intuitively, the existence of $\pi_i$ implies that as t approaches
+infinity, the system approaches steady-state, in the sense that
+
+\begin{equation}
+\lim_{t \rightarrow \infty} P(X_t = i) = \pi_i
+\end{equation}
+
+Though we will again avoid discussing mathematical conditions for
+this to occur, the point here is that this last equation suggests
+a way to calculate the values $\pi_i$, as follows.
+
+First note that
+
+\begin{equation}
+P(X_{t+1} = i) = \sum_k P(X_t = k) p_{ki}
+\end{equation}
+
+Then as $t \rightarrow \infty$ in this equation, intuitively we would have
+
+\begin{equation}
+\pi_i = \sum_k \pi_k p_{ki}
+\end{equation}
+
+Letting $\pi$ denote the row vector of the elements $\pi _ i$, these
+equations (one for each i) then have the matrix form
+
+\begin{equation}
+\pi = \pi P
+\end{equation}
+
+Note that there is also the constraint
+
+\begin{equation}
+\sum_i \pi_i = 1
+\end{equation}
+
+This can be used to calculate the $\pi_i$.  For the random walk 
+problem above, for instance, the solution is $[ \frac{1}{11},
+\frac{3}{11},\frac{3}{11},\frac{3}{11},\frac{1}{11} ]$.
+Thus in the long run we will spend 1/11 of our time at position 1,
+3/11 of our time at position 2, and so on.
+
 
 ## Convergence Property
 
