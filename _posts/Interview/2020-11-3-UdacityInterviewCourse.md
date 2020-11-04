@@ -114,5 +114,31 @@ Example 4. Describe Your ML Project
 Data extraction, challenge, pipeline, Project of interest, Larger ecosystem, passion
 
 Example 5. Explain How SVMs Work
+when dataset not linearly separable, use kernel or different methods. 
+
+Show teamwork by taking feedback nicely.
 
 
+### Coding Interview
+
+* Clarifying the Question: 
+
+	  make sure you are solving the right variation of a problem and not wasting anyone's time
+		
+* Generating Inputs and Outputs
+		
+  	figure out input-output format
+        
+* Generating Test Cases
+
+   	always consider edge cases, like null and empty cases, first
+	
+* Brainstorming
+	
+	  data structure matters!
+	  
+* Runtime analysis
+
+         optimal algorithm or not by looking at big O analysis
+* Coding
+* Debugiging
