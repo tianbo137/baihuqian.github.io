@@ -4,7 +4,7 @@ title: "Key Assumptions of Linear and Logistic Regression"
 date: '2020-11-1'
 tags:
  - Interview
- - Statitics
+ - Statistics
 ---
 
 # Assumptions of Linear Regression
