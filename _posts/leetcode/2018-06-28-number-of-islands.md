@@ -4,8 +4,8 @@ title: 'Leetcode 200: Number of Islands'
 date: '2018-06-28 22:53'
 tags:
   - Leetcode
-  - Hard
-  - DSU
+  - Medium
+  - DFS
   - Review
 ---
 
@@ -45,61 +45,24 @@ class Solution(object):
         :type grid: List[List[str]]
         :rtype: int
         """
-        class UnionFind(object):
-            def __init__(self, grid):
-                self.count = 0
-
-                self.x, self.y = len(grid), len(grid[0])
-
-                self.parent = [0 for _ in range(x * y)]
-                self.rank = [0 for _ in range(x * y)]
-
-                for i in range(self.x):
-                    for j in range(self.y):
-                        if grid[i][j] == '1':
-                            index = self._index(i, j)
-                            self.parent[index] = index
-                            self.rank[index] = 1
-                            self.count += 1
-
-            def _index(self, i, j):
-                return i * self.y + j
-
-            def find(self, index):
-                if self.parent[index] != index:
-                    self.parent[index] = self.find(self.parent[index])
-                return self.parent[index]
-
-            def union(self, i, j, m, n):
-                xr, yr = self.find(self._index(i, j)), self.find(self._index(m, n))
-                if xr == yr:
-                    return
-                if self.rank[xr] > self.rank[yr]:
-                    self.parent[yr] = xr
-                elif self.rank[xr] < self.rank[yr]:
-                    self.parent[xr] = yr
-                else:
-                    self.parent[xr] = yr
-                    self.rank[yr] += 1
-                self.count -= 1
-
-        if len(grid) == 0 or len(grid[0]) == 0:
-            return 0
-
-        x, y = len(grid), len(grid[0])
-        unionFind = UnionFind(grid)
-
-        for i in range(x):
-            for j in range(y):
-                if grid[i][j] == '1':
-                    if i > 0 and grid[i - 1][j] == '1':
-                        unionFind.union(i, j, i - 1, j)
-                    if i < x - 1 and grid[i + 1][j] == '1':
-                        unionFind.union(i, j, i + 1, j)
-                    if j > 0 and grid[i][j - 1] == '1':
-                        unionFind.union(i, j, i, j - 1)
-                    if j < y - 1 and grid[i][j + 1] == '1':
-                        unionFind.union(i, j, i, j + 1)
-
-        return unionFind.count
+        r = len(grid)
+        if r == 0: return 0
+        c = len(grid[0])
+        
+        ans = 0
+        for y in xrange(r): # xrange only valid in python 2
+            for x in xrange(c):
+                if grid[y][x] == '1':
+                    ans += 1
+                    self.__dfs(grid, x, y, c, r)
+        return ans
+    
+    def __dfs(self, grid, x, y, c, r):
+        if x < 0 or y < 0 or x >=c or y >= r or grid[y][x] == '0':
+            return
+        grid[y][x] = '0'
+        self.__dfs(grid, x + 1, y, n, m)
+        self.__dfs(grid, x - 1, y, n, m)
+        self.__dfs(grid, x, y + 1, n, m)
+        self.__dfs(grid, x, y - 1, n, m)
 ```
