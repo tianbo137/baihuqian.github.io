@@ -7,6 +7,8 @@ tags:
  - Interview
 ---
 
+## What is Markov Chain?
+
 One of the most commonly used stochastic models is that of a **Markov 
 chain**. To motivate this discussion, we will start with a simple 
 example: Consider a **random walk** on the set of integers between 
@@ -22,3 +24,11 @@ The integers 1 through 5 form the **state space** for this process;
 if we are currently at 4, for instance, we say we are in state 4.
 Letting $X _ t$ represent the position of the particle at time t, $$t = 0,
 1,2,\ldots$$ which is called the **state** of the process at time t.
+
+## Markov Property
+
+## The Transition Matrix
+
+## Convergence Property
+
+## Hitting Times
