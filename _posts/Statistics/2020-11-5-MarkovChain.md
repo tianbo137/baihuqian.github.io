@@ -53,13 +53,13 @@ $$
 {\pi}_i =  \lim_{t \rightarrow \infty} \frac{N_{it}}{t}
 \end{align} 
 $$
-where $N_{it}$ is the number of visits the process makes to state i 
-among times 1, 2,..., t.  In most practical cases, this proportion 
-will exist and be independent of our initial position $X_0$.  (There 
+where $$N_{it}$$ is the number of visits the process makes to state i 
+among times 1, 2,..., $$t$$.  In most practical cases, this proportion 
+will exist and be independent of our initial position $$X_0$$.  (There 
 are mathematical conditions under which this is guaranteed to occur, 
 but they will not be stated here.)  
 
-Intuitively, the existence of $\pi_i$ implies that as t approaches
+Intuitively, the existence of $$\pi_i$$ implies that as t approaches
 infinity, the system approaches steady-state, in the sense that
 $$
 \begin{align}
