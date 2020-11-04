@@ -174,11 +174,11 @@ Books
 
 Github Repository (Collections of Problems)
 
-    The Coding Interview
+    [The Coding Interview](https://github.com/mre/the-coding-interview)
     HTML5 Boilerplate Interview Questions
 
 Blog Posts
 
-    Five Essential Phone Screen Questions
+    [Five Essential Phone Screen Questions](https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 
