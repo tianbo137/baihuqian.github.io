@@ -23,9 +23,9 @@ the process.  Denote by P the **transition matrix** whose entries are the $$p _ 
 
 ## Markov Property
 
-    It only matters where you are, not where you have been.
+    In a Markov chain, the future depends only upon the present, NOT upon the past.
     
-The above random walk is a **Markov process**.  The term *Markov* here has meaning similar to that of the term *memoryless* used 
+The above random walk is a **Markov process**, where the term *Markov* has meaning similar to that of the term *memoryless* used 
 for the exponential distribution, in that we can "forget the past":
 
 $$
@@ -36,15 +36,11 @@ P( X _ {t+1} = s _ {t+1} | X _ t = s _ t )
 \end{align}
 $$ 
 
-Although this equation has a very complex look, it has a very
-simple meaning:  The distribution of our next position, given our
-current position and all our past positions, is dependent only on 
-the current position.  It is clear that the random walk process above 
-does have this property; for instance, if we are now at position 4,
-the probability that our next state will be 3 is 1/3---no matter
-where we were in the past.## Markov Property
+Although this equation has a very complex look, it has a very simple meaning:  The distribution of our next position, given our current position and all our past positions, is dependent only on the current position.  It is clear that the random walk process above  does have this property; for instance, if we are now at position 4, the probability that our next state will be 3 is 1/3---no matter where we were in the past.
 
-  
+
+## Convergence Property
+
 In typical applications we are interested in the long-run distribution
 of the process, for example, the long-run proportion of the time that
 we are at position 4.  For each state i, define
@@ -102,6 +98,5 @@ Thus in the long run we will spend 1/11 of our time at position 1,
 3/11 of our time at position 2, and so on.
 
 
-## Convergence Property
 
 ## Hitting Times
