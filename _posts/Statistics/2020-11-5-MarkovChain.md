@@ -17,7 +17,7 @@ To motivate this discussion, we start with a simple example: consider a stock ma
 
 The *state space* for this process is given by $$ \mathcal{S} = \{0, 1, 2\}$$ and we denote by $X_t$ the state of the market at time $$t = 0, 1,2,\ldots$$ which is called the *state* of the process at time $$t$$. 
 
-Let $$p _ {ij}$$ denote the probability of going from position i to position j in one step.  For example, in the above stock market example, Bull market can change to Stagnant market with a possibilty of 0.025, i.e. $$p_{02} = 0.25$$. The numbers $$p_{ij}$$ are called the **one-step transition probabilities** of the process.  Denote by P the **transition matrix** whose entries are the $$p _ {ij}$$, and we have for the stock market example:
+Let $$p _ {ij}$$ denote the probability of going from position i to position j in one step.  For example, in the above stock market example, Bull market can change to Stagnant market with a possibilty of 0.025, i.e. $$p_{02} = 0.025$$. The numbers $$p_{ij}$$ are called the **one-step transition probabilities** of the process.  Denote by P the **transition matrix** whose entries are the $$p _ {ij}$$, and we have for the stock market example:
 
 ![markovmarket](/assets/img/Markov 3.png)
 
