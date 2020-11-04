@@ -56,7 +56,7 @@ $$
 $$
 
 where $$N_{it}$$ is the number of visits the process makes to state i 
-among times 1, 2,..., $$t$$.  In most practical cases, this proportion 
+among times $$1, 2,..., t$$. In most practical cases, this proportion 
 will exist and be independent of our initial position $$X_0$$.  (There 
 are mathematical conditions under which this is guaranteed to occur, 
 but they will not be stated here.)  
@@ -76,7 +76,7 @@ First note that
 
 $$
 \begin{align}
-P(X_{t+1} = i) = \sum_k P(X_t = k) p_{ki}
+P(X_{t+1} = i) = \sum_k P(X_t = k) \cdot p_{ki}
 \end{align}
 $$
 
@@ -105,10 +105,54 @@ $$
 $$
 
 This can be used to calculate the $$\pi_i$$.  For the stock market model 
-as above, for instance, the solution is $[ \frac{1}{11},
-\frac{3}{11},\frac{3}{11},\frac{3}{11},\frac{1}{11} ]$.
-Thus in the long run we will spend 1/11 of our time at position 1,
-3/11 of our time at position 2, and so on.
+as above, assume that  the initial state of the stock market is given by $$\[0.1 , 0.2 , 0.7\]$$, we implement the following code
+
+``` python
+
+def markov():
+    init_array = np.array([0.1, 0.2, 0.7])
+    transfer_matrix = np.array([[0.9, 0.075, 0.025],
+                               [0.15, 0.8, 0.05],
+                               [0.25, 0.25, 0.5]])
+    restmp = init_array
+    for i in range(25):
+        res = np.dot(restmp, transfer_matrix)
+        print i, "\t", res
+        restmp = res
+
+markov()
+
+```
+with output as follows:
+
+``` python
+
+0 	[ 0.295   0.3425  0.3625]
+1 	[ 0.4075   0.38675  0.20575]
+2 	[ 0.4762  0.3914  0.1324]
+3 	[ 0.52039   0.381935  0.097675]
+4 	[ 0.55006   0.368996  0.080944]
+5 	[ 0.5706394  0.3566873  0.0726733]
+6 	[ 0.58524688  0.34631612  0.068437  ]
+7 	[ 0.59577886  0.33805566  0.06616548]
+8 	[ 0.60345069  0.33166931  0.06487999]
+9 	[ 0.60907602  0.32681425  0.06410973]
+10 	[ 0.61321799  0.32315953  0.06362248]
+11 	[ 0.61627574  0.3204246   0.06329967]
+12 	[ 0.61853677  0.31838527  0.06307796]
+13 	[ 0.62021037  0.31686797  0.06292166]
+14 	[ 0.62144995  0.31574057  0.06280949]
+15 	[ 0.62236841  0.31490357  0.06272802]
+16 	[ 0.62304911  0.31428249  0.0626684 ]
+17 	[ 0.62355367  0.31382178  0.06262455]
+18 	[ 0.62392771  0.31348008  0.06259221]
+19 	[ 0.624205   0.3132267  0.0625683]
+20 	[ 0.62441058  0.31303881  0.06255061]
+21 	[ 0.624563    0.31289949  0.06253751]
+22 	[ 0.624676   0.3127962  0.0625278]
+23 	[ 0.62475978  0.31271961  0.06252061]
+24 	[ 0.6248219   0.31266282  0.06251528]
+```
 
 
 
