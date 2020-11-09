@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Leetcode 200: Number of Islands'
-date: '2018-06-28 22:53'
+date: '2020-09-28 22:53'
 tags:
   - Leetcode
   - Medium
