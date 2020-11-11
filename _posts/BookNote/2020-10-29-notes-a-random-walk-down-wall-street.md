@@ -8,11 +8,11 @@ tags:
 
 # 漫步华尔街
 
-《漫步华尔街》原名《A Random Walk Down Wall Street: The Time Tested Strategy for Successful Investing》，是一本超越股市涨跌的成功投资策略。全书重点是预测市场的涨跌、高低不容易，做好资产配置、选择指数化投资，你也可以是理财高手，这些方法不保证能一夕致富，但应当可以让你稳健致富。
+《漫步华尔街》原名《A Random Walk Down Wall Street: The Time Tested Strategy for Successful Investing》，是一本超越股市涨跌的成功投资策略。全书重点是预测市场的涨跌、高低不容易，做好资产配置、选择指数化投资，这些方法不保证能一夕致富，但应当可以让你稳健致富。
 
 ## 认识作者
 
-伯顿‧墨基尔（Burton Malkiel）现任普林斯顿大学教授，专攻证券市场以及投资行为学，曾任华尔街证券分析师、全球大型投资公司董事，并曾获聘为美国总统的经济谘询委员会委员（Council of Economic Advisers）。同时具备实务经验以及学术知识，更是报酬绩效优异的投资人，因此本书堪称兼具理论以及实务，而非只是用字遣词生硬的教科书。
+伯顿‧墨基尔（Burton Malkiel）曾任普林斯顿大学教授，专攻证券市场以及投资行为学，曾任华尔街证券分析师、全球大型投资公司董事，并曾获聘为美国总统的经济谘询委员会委员（Council of Economic Advisers)，同时具备实务经验以及学术知识，更是报酬绩效优异的投资人。
 
 
 全书分为五个单元：
