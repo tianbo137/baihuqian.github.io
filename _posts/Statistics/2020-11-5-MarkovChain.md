@@ -153,7 +153,7 @@ with output as follows:
 23 	[ 0.62475978  0.31271961  0.06252061]
 24 	[ 0.6248219   0.31266282  0.06251528]
 ```
-We can see that from $$t = 18$$，stock state begins to converge to $$\[ 0.624 , 0.312 , 0.0625 \]$$ whereas the later on minor change is due to floating computation of the machine. In fact, the above phenomenon is true for any other initial states. 
+We can see that from $$t = 18$$，stock state begins to converge to $$\(0.624 , 0.312 , 0.0625\)$$ whereas the later on minor change is due to floating computation of the machine. In fact, the above phenomenon is true for any other initial states. 
 
 
 ## Hitting Times
