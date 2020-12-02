@@ -4,7 +4,6 @@ title: "Markov Chain"
 date: '2020-11-5'
 tags:
  - Statistics
- - Interview
 ---
 
 ## What is Markov Chain?
