@@ -3,7 +3,6 @@ layout: post
 title: "One Line Proof that a Covariance Matrix is Positive Semidefinite"
 date: '2020-11-1'
 tags:
- - Interview
  - Statistics
 ---
 
