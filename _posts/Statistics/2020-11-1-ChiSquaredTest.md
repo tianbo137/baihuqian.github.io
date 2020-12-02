@@ -3,7 +3,6 @@ layout: post
 title: "Chi-squared Test and Application in Machine Learning"
 date: '2020-11-1'
 tags:
- - Interview
  - Statistics
 ---
 
