@@ -1,3 +1,11 @@
+---
+layout: "post"
+title: "sql-zoo 8"
+date: "2020-12-1"
+tags: sql
+---
+
+
 --Teachers and Departments
 --The school includes many departments. Most teachers work exclusively for a single department. Some teachers have no department.
 --Table name: teacher

@@ -1,3 +1,11 @@
+---
+layout: "post"
+title: "sql-zoo 5"
+date: "2020-12-1"
+tags: sql
+---
+
+
 --This tutorial is about aggregate functions such as COUNT, SUM and AVG. An aggregate function takes many values and delivers just one value. For example the function SUM would aggregate the values 2, 4 and 5 to deliver the single value 11.
 --Table name:world
 |     name    | continent |   area   | population |      gdp     |

@@ -1,3 +1,11 @@
+---
+layout: "post"
+title: "sql-zoo 9"
+date: "2020-12-1"
+tags: sql
+---
+
+
 --Looking at the data
 
 --stops(id, name)

@@ -1,3 +1,11 @@
+---
+layout: "post"
+title: "sql-zoo 3"
+date: "2020-12-1"
+tags: sql
+---
+
+
 --nobel Nobel Laureates
 --We continue practicing simple SQL queries on a single table.
 

@@ -1,3 +1,12 @@
+---
+layout: "post"
+title: "sql-zoo 4"
+date: "2020-12-1"
+tags: sql
+---
+
+
+
 --This tutorial looks at how we can use SELECT statements within SELECT statements to perform more complex queries.
 --Table name:world
 |    name     | continent |   area  | population |     gdp      |

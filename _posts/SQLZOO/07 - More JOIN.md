@@ -1,3 +1,11 @@
+
+---
+layout: "post"
+title: "sql-zoo 7"
+date: "2020-12-1"
+tags: sql
+---
+
 --This tutorial introduces the notion of a join. The database consists of three tables movie , actor and casting .
 --Table name: movie
 | id | title | yr | director | budget | gross |

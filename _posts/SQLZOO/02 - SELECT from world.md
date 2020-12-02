@@ -1,3 +1,11 @@
+---
+layout: "post"
+title: "sql-zoo 2"
+date: "2020-12-1"
+tags: sql
+---
+
+
 --Table name:world
 |    name     | continent |   area  | population |     gdp      |
 | Afghanistan |    Asia   |  652230 |  25500100  |  20343000000 |
