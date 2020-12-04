@@ -13,7 +13,7 @@ Data preprocessing is one of most important phase of a machine learning project.
 
 ## Steps in Data Preprocessing:
 
-![img2](/assets/img/process2.jpeg)
+![img2](/assets/img/process3.jpg)
 
 ### 1. Data cleaning: 
 
@@ -34,6 +34,4 @@ Data preprocessing is one of most important phase of a machine learning project.
 
 ### 3. Data transformation: to convert data from one format to be in another format to transform data to make it compatible with other data, move it to another system, join it with other data, or aggregate information in the data. Example of Data transformation is normalization and aggregation.
 
-### 4. Data reduction: reducing the volume but producing the same or similar analytical results.
-
-### 5. Data discretization: part of data reduction, replacing numerical attributes with nominal ones.
+### 4. Data reduction and data discretization: reducing the volume but producing the same or similar analytical results, replacing numerical attributes with nominal ones.
