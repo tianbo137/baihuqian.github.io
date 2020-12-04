@@ -13,8 +13,6 @@ Data preprocessing is one of most important phase of a machine learning project.
 
 ## Steps in Data Preprocessing:
 
-![img2](/assets/img/process3.jpg)
-
 ### 1. Data cleaning: 
 
 1. Remove duplicates at id level, that is, the level at which the rows should be unique.
