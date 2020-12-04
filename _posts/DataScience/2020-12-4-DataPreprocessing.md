@@ -34,4 +34,4 @@ In this step we will convert the raw data to a required scale according to the n
         Generalization
 
 ### 4. Data Reduction 
-After data transformation, redundancy in the data as to be removed by feature selection based on correlation/ PCA etc. Check the ski-learn resource [here](https://scikit-learn.org/stable/modules/feature_selection.html)
+After data transformation, redundancy in the data as to be removed by feature selection based on correlation/ PCA etc. Check the ski-learn resource on feature selection [here](https://scikit-learn.org/stable/modules/feature_selection.html)
