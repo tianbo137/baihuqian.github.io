@@ -5,13 +5,15 @@ date: '2020-11-28'
 tags:
  - DataScience
 ---
-
 ![img1]()
+
 ## The Problem
 
 Data preprocessing is one of most important phase of a machine learning project. The phrase **"garbage in, garbage out"** is particularly applicable to data mining and machine learning projects. Data-gathering methods are often loosely controlled, resulting in noisy values (e.g., Income: −100), impossible data combinations (e.g., Sex: Male, Pregnant: Yes), missing values, etc. Analyzing data that has not been carefully screened for such problems can produce misleading results. Thus, the representation and quality of data are first and foremost before running an analysis. 
 
 ## Steps in Data Preprocessing:
+
+![img2]()
 
 1. Data cleaning: fill in missing values, smooth noisy data, identify or remove outliers, and resolve inconsistencies.
 
