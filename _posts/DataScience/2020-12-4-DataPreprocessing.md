@@ -15,13 +15,13 @@ Data preprocessing is one of most important phase of a machine learning project.
 
 ### 1. Data cleaning: 
 
-1. Remove duplicates at id level, that is, the level at which the rows should be unique.
+* Remove duplicates at id level, that is, the level at which the rows should be unique.
 
-2. Transform qualitative data into quantitative data by mapping strings to integers. Eg: for a hotel, they offer packages for 2 days, 5 days and 10 days. We can encode the data as: 1=2 days, 2= 5 days and 3 = 10 days
+* Transform qualitative data into quantitative data by mapping strings to integers. Eg: for a hotel, they offer packages for 2 days, 5 days and 10 days. We can encode the data as: 1=2 days, 2= 5 days and 3 = 10 days
 
-3. Handle outliers. Check outliers on all key variables, especially the computed ones.
+* Handle outliers. Check outliers on all key variables, especially the computed ones.
 
-4. Handle missing values, columns etc. Check for blank columns, large % of blank data, high % of same data. Look for columns which are entirely blank. This can happen in case some join fails or in case there is some error in data extraction. Check the % of blank cases by each column and frequency distributions to find out if the same data is being repeated in more cases than expected.
+* Handle missing values, columns etc. Check for blank columns, large % of blank data, high % of same data. Look for columns which are entirely blank. This can happen in case some join fails or in case there is some error in data extraction. Check the % of blank cases by each column and frequency distributions to find out if the same data is being repeated in more cases than expected.
 
 
 ### 2. Data Integration 
