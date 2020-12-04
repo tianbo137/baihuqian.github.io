@@ -25,13 +25,15 @@ Data preprocessing is one of most important phase of a machine learning project.
 
 4. Handle missing values, columns etc. Check for blank columns, large % of blank data, high % of same data. Look for columns which are entirely blank. This can happen in case some join fails or in case there is some error in data extraction. Check the % of blank cases by each column and frequency distributions to find out if the same data is being repeated in more cases than expected.
 
-5. Handle missing values
 
+### 2. Data Integration 
+This process is used when data is gathered from various data sources and data are combined to form consistent data. This data after performing cleaning is used for analysis.
 
-       
+### 3. Data Transformation 
+In this step we will convert the raw data to a required scale according to the need of the model, we are building. There are many options used for transforming the data:
+        Normalization
+        Aggregation
+        Generalization
 
-### 2. Data integration: using multiple databases, data cubes, or files and dealing with a unified view of the combined data, enabling you to query and manipulate all of your data from a single interface and derive analytics and statistics. While the sources and types of data continue to grow and it aims to solve many of the problems that come about when you have disparate information stored in different applications across an organization.
-
-### 3. Data transformation: to convert data from one format to be in another format to transform data to make it compatible with other data, move it to another system, join it with other data, or aggregate information in the data. Example of Data transformation is normalization and aggregation.
-
-### 4. Data reduction and data discretization: reducing the volume but producing the same or similar analytical results, replacing numerical attributes with nominal ones.
+### 4. Data Reduction 
+After data transformation, redundancy in the data as to be removed by feature selection based on correlation/ PCA etc. Check the ski-learn resource [here](https://scikit-learn.org/stable/modules/feature_selection.html)
