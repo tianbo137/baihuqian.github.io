@@ -5,7 +5,7 @@ date: '2020-12-4'
 tags:
  - DataScience
 ---
-![img1](tianbo137.github.io/assets/img/proceesing1.jpeg)
+![img1](/assets/img/proceesing1.jpeg)
 
 ## The Problem
 
@@ -13,7 +13,7 @@ Data preprocessing is one of most important phase of a machine learning project.
 
 ## Steps in Data Preprocessing:
 
-![img2](tianbo137.github.io/assets/img/process2.jpeg)
+![img2](/assets/img/process2.jpeg)
 
 1. Data cleaning: fill in missing values, smooth noisy data, identify or remove outliers, and resolve inconsistencies.
 
