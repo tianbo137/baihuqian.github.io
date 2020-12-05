@@ -5,4 +5,8 @@ subtitle: When you are tired, take a rest, do not quit!
 use-site-title: true
 ---
 
-Ph.D. in Mathematics.  Data Scientist on the way. 💡 Curious, 🔍 skeptic, humble, 🔰 & tenacious learner.  In spare time, I enjoy reading, camping, and relaxing with a cup of tea.
+
+
+Hello! I’m Bo. Welcome to my blog about data science/machine learning, coding, career, and life. 
+
+Currently, I am a volunteer data scientist at CrowdDoing and am actively looking for an entry-level data engineer/scientist job in the United States.
