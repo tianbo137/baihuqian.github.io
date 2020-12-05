@@ -7,6 +7,6 @@ use-site-title: true
 
 
 
-Hello! I’m Bo. Welcome to my blog about data science/machine learning, coding, career, and life. 
+Hello! I’m Bo. Welcome to my blog about data science, coding, career, and life. 
 
-Currently, I am a volunteer data scientist at CrowdDoing and am actively looking for an entry-level data engineer/scientist job in the United States.
+Currently, I am a volunteer data scientist at CrowdDoing and am actively looking for an entry-level data scientist job in the United States.
